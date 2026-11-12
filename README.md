@@ -11,6 +11,7 @@ Base de datos de precios de medicamentos contratados por el sector público de s
 | `data/claves_eje_salud_mental_diabetes_40.csv` | Claves del eje de salud mental y diabetes (43 filas; conserva el nombre de 40) |
 | `data/base_solicitudes.csv` | Registro de las solicitudes de acceso a la información |
 | `data/cero_desabasto_reportes_claves.csv` | Reportes de Cero Desabasto para las claves del eje |
+| `respuestas/` | Índice de las respuestas a las solicitudes. Los documentos, un zip por solicitud, están en el release [`respuestas-2026-11-12`](https://github.com/nosotrxs/transparencia-mexicana-cais/releases/tag/respuestas-2026-11-12) |
 | `salidas/` | Capa de análisis: `analisis_precios.xlsx`, sus tablas en CSV y las figuras |
 | `datos/` | Insumos externos: INPC, índice de marginación de CONAPO y Censo 2020 de INEGI |
 | `R/`, `tests/` | Código del análisis y sus pruebas |
