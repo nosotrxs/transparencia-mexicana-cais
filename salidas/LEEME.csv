@@ -1,0 +1,303 @@
+seccion,campo,valor
+Hoja,medianas,"Serie de contexto 2019-2026. Precio por clave x grupo x año fiscal, las cinco comparaciones apiladas: mediana ponderada por cantidad (indicador principal), mediana por fila (sensibilidad), mínimo, máximo y media ponderada por cantidad, en pesos nominales y en pesos de 2025 (sufijo _real_2025), con el factor de deflación y los meses de INPC del año. n_sin_cantidad cuenta las filas sin cantidad utilizable (vacía, cero o negativa), que no entran en la ponderación."
+Hoja,medianas_sin_menudeo,"Sensibilidad de precios sin menudeo de farmacia: las mismas filas y columnas que medianas (cada comparación x clave x grupo x año), calculadas con los filtros de la serie de contexto 2019-2026 pero sin las filas [MENUDEO_FARMACIA]. mediana_ponderada_cantidad_con_menudeo repite el indicador principal de medianas y razon_sin_entre_con = sin menudeo / con menudeo (vacía si falta alguno de los dos). Los grupos cuyas filas eran todas de menudeo aparecen con n_filas = 0 y precios vacíos."
+Hoja,claves_comparadas,"Por comparación y clave: grupos con mediana ponderada por cantidad y si la clave queda comparada en la serie de contexto 2019-2026, agrupando el periodo (comparada_agrupado) o dentro de un mismo año fiscal (comparada_mismo_año, con los años en años_comparados). comparada_principal aplica la regla del mismo año a los años fiscales 2024 y 2025, los de las cifras titulares: cada par se compara dentro de su año y la clave cuenta si queda comparada en 2024 o en 2025 (años_comparados dice en cuál). En federal_vs_estatal se exige el grupo federal agrupado (columna grupo_requerido) y el precio del ciclo bianual cuenta también en el segundo año del ciclo (nota ciclo_bianual). La cifra titular de claves comparadas son las filas con comparacion_principal = TRUE y comparada_principal = TRUE. Las columnas con sufijo _mediana repiten la regla con la mediana por fila (sensibilidad)."
+Hoja,sensibilidad,"Rejilla completa comparación x periodo (todo, 2019_2026, 2024_2027, 2024_2025, solo_2025) x los cuatro interruptores (400 filas): filas usadas, filas sin cantidad, claves con precio, claves con mediana ponderada, grupos, claves comparadas (agrupado y mismo año) con el indicador principal (columna indicador) y si alcanza el umbral; las columnas con sufijo _mediana repiten el conteo con la mediana por fila. excluir_menudeo = FALSE/TRUE da la lectura con y sin menudeo de farmacia. Las filas federal_vs_estatal aplican la regla del grupo federal requerido y la del ciclo bianual; filas_usadas no cuenta las copias de segundo año del ciclo. lectura_principal = TRUE marca la fila de la lectura principal (periodo 2024_2025); la fila equivalente con periodo solo_2025 es la lectura anterior y la de 2019_2026, la serie de contexto. Se calcula con las insulinas leídas como canal ambulatorio (nota reclasificacion_canal)."
+Hoja,brecha_imss_issste,"Serie de contexto 2019-2026. Por clave x año con precio en IMSS e ISSSTE: medianas ponderadas por cantidad y medianas por fila de ambos, razón ISSSTE/IMSS y diferencia con el indicador principal (con sufijo _mediana, con la mediana por fila), procedimiento compartido y precios idénticos. Medianas y diferencias también en pesos de 2025."
+Hoja,brecha_federal_estatal,"Serie de contexto 2019-2026. Por clave x entidad x año: par_principal = TRUE marca los pares entidad-clave-año de los años fiscales 2024 y 2025 con indicador principal estatal y federal, los de las cifras titulares. Mediana ponderada por cantidad y mediana por fila, estatal y federal agrupada del mismo año, y razón estatal/federal con el indicador principal (razon_estatal_federal_mediana: con la mediana por fila); con_federal_mismo_año indica si hay indicador principal federal ese año. La referencia federal de un año incluye los precios del ciclo bianual adjudicados el año anterior (nota ciclo_bianual): n_filas_federal_ciclo_arrastrado cuenta esas filas y federal_con_ciclo_arrastrado = TRUE marca las filas que las usan. Medianas también en pesos de 2025."
+Hoja,dispersion_por_clave,"Por clave, los años 2019-2026 juntos: mediana ponderada por cantidad, mediana por fila, n, p10, p90, razón máx/mín y filas por encima de 2x y 5x la mediana de su clave-año, contadas contra la mediana por fila y contra la mediana ponderada. Versión en pesos de 2025 calculada sobre las filas con INPC (n_filas_con_inpc; excluye 2027)."
+Hoja,dispersion_por_clave_año,"Igual que dispersion_por_clave, por clave x año fiscal, con el factor de deflación y los meses de INPC del año."
+Hoja,serie_real_por_clave,"Serie de contexto 2019-2026. Por clave x año fiscal: mediana ponderada por cantidad y mediana por fila, federal agrupada y estatal agrupada (todas las entidades juntas), con n filas y filas sin cantidad, en pesos nominales y de 2025. Sirve para comparar entre años."
+Hoja,cobertura_tipo_institucion,"Filas comparables por clave x tipo de institución, las 43 claves del universo, años fiscales 2019-2026."
+Hoja,cobertura_entidad,"Filas comparables por clave x entidad federativa, las 43 claves del universo, años fiscales 2019-2026."
+Hoja,anexo_canal_hospitalario,"Anexo, fuera de la lectura principal: la misma comparación que brecha_federal_estatal (federal agrupado contra cada entidad, mismo año, indicador principal, regla del ciclo bianual), calculada solo con las filas de canal hospitalario y los demás filtros de la lectura principal, años fiscales 2019-2026. par_principal = TRUE marca los pares de 2024 y 2025. Las insulinas no están: se leen como canal ambulatorio (nota reclasificacion_canal)."
+Hoja,anexo_canal_hospitalario_claves,"Anexo, fuera de la lectura principal: por clave con filas de canal hospitalario, filas federales y estatales, pares entidad-año con referencia federal y la regla de clave comparada en 2019-2026 (agrupado y mismo año; con sufijo _mediana, con la mediana por fila) y en 2024-2025 (comparada_principal)."
+Hoja,reclasificacion_canal,"Por clave de insulina y orden de gobierno, las filas que la base clasifica en otro canal (canal_base) y que esta capa lee como canal ambulatorio: todas, las comparables y las comparables de 2024-2025. La base no cambia."
+Hoja,cobertura_prescripcion,"Por clave (43): cajas prescritas en 2023 (año ISO) por el IMSS (Ordinario) y el ISSSTE según OCAMIS, parte de cada clave en el total de la institución sobre las 43 claves, si la clave queda comparada en la lectura principal (comparada_principal) y en cada año (comparada_2024, comparada_2025), y el motivo cuando no lo está. 2023 es el último año completo de OCAMIS."
+Hoja,compra_vs_prescripcion,"Revisión de cobertura de la base, no lectura de precios. Por institución y año (2019-2024): cajas prescritas en OCAMIS (43 claves; año ISO tomado como año fiscal; semanas_prescripcion dice cuántas semanas tiene el año) contra cajas compradas en filas comparables de la base, de cualquier canal y sin duplicado_de: con la cantidad mínima (cantidad_envases) y con la máxima donde un contrato abierto la trae. Claves con prescripción, con compra y con ambas; compra entre prescripción en las claves con ambas; compra como parte de todo lo prescrito. 2024 está incompleto en OCAMIS."
+Hoja,compra_vs_prescripcion_clave,"Revisión de cobertura de la base, no lectura de precios. Lo mismo que compra_vs_prescripcion, por institución x año (2019-2024) x clave: cajas prescritas en OCAMIS contra cajas compradas en el mismo año fiscal (filas comparables, de cualquier canal, sin duplicado_de), con la cantidad mínima y con la máxima donde un contrato abierto la trae. ambas = TRUE si la clave tiene cajas de los dos lados; razon_compra_prescripcion_minimo y _maximo = compradas / prescritas (vacías sin prescripción). Solo claves con cajas de algún lado. La sección Compra contra prescripción por clave de LEEME resume el ISSSTE en 2023."
+Hoja,compra_2025_vs_presc_2023,"Aproximación. Por institución y clave: la compra del año fiscal 2025 (ciclo consolidado 2025-2026) llevada a un año contra lo prescrito en 2023. Solo las filas con [CICLO_BIANUAL] se dividen entre dos; las filas sin etiqueta cuentan como están. Filas comparables, de cualquier canal, sin duplicado_de. Compara años distintos: sirve para ver el orden de magnitud, no para medir abasto."
+Hoja,razon_por_eje_y_clave,"Pares de la lectura principal (par_principal en brecha_federal_estatal, años fiscales 2024 y 2025): mediana de la razón estatal/federal por eje (nivel = eje: salud mental, diabetes) y por clave (nivel = clave), con el número de pares; cada par cuenta una vez."
+Hoja,sobrecosto_estatal,"Sobrecosto estatal frente a la referencia federal (método de PODER, 2021, adaptado). Filas estatales de la lectura principal (años fiscales 2024 y 2025, canal ambulatorio con las insulinas reclasificadas, precio y cantidad positivos) con referencia federal el mismo año. Sobrecosto de una fila = max(0, (precio por caja - referencia) x cajas, cantidad mínima); referencia = mediana ponderada por cantidad del grupo federal agrupado de la clave y el año, con el precio del ciclo bianual arrastrado (como en brecha_federal_estatal). Por nivel: total, año, entidad y clave; gasto estatal comparado (precio x cantidad), sobrecosto y parte del gasto. Variantes en la sección Sobrecosto estatal de LEEME."
+Hoja,cruce_marginacion_entidad,"Por entidad con pares de la lectura principal: pares, claves y mediana de la razón estatal/federal (brecha_mediana), índice de marginación 2020 de CONAPO (indice_marginacion_2020), índice normalizado (imn_2020) y grado, población de 3 años y más y hablantes de lengua indígena del Censo 2020 del INEGI (tabulado de etnicidad, hoja 02, sexo y edad Total) y su porcentaje (pct_hli)."
+Hoja,cobertura_marginacion_entidad,"Las 32 entidades con su grado de marginación 2020 (CONAPO) y su cobertura de precios estatales, la primera categoría que aplica: Con pares (pares de la lectura principal); Con filas comparables, sin par (filas comparables en cobertura_entidad, serie 2019-2026, canal ambulatorio); Con filas, ninguna comparable (filas estatales en la base, ninguna comparable); Sin filas. filas_total cuenta todas las filas estatales de la base, comparables o no."
+Hoja,entregas_por_clave,"Entregas de la compra consolidada federal (Plataforma de monitoreo de medicamentos de la Secretaría de Salud, ordenes_suministro.csv, solicitudes del 2025-01-06 al 2026-10-23; sin precios). Por clave (las 43): eje, en_plataforma (la clave tiene al menos una orden, activa o cancelada), órdenes activas, piezas solicitadas y entregadas, pct_entregado (entregadas / solicitadas; vacío si no se solicitó nada), piezas solicitadas por estatus (completa, incompleta, en tránsito, incumplida, en validación; suman piezas_solicitadas), órdenes canceladas con sus piezas solicitadas y entregadas (fuera de los demás conteos), procedimientos (licitacion) y proveedores distintos, proveedor principal por piezas entregadas (empate: orden alfabético) y su parte. Del lado de precios, de las tablas de esta corrida: pares y razon_estatal_federal_mediana (razon_por_eje_y_clave), comparada_principal (claves_comparadas) y gasto estatal comparado, sobrecosto y su parte (sobrecosto_estatal)."
+Hoja,entregas_por_clave_institucion,"Las mismas columnas de volumen que entregas_por_clave, por clave x institución que solicita (IMSS, IMSS BIENESTAR, ISSSTE, CCINSHAE, etc.). Solo combinaciones con órdenes en la plataforma; sin columnas de precio."
+Hoja,entregas_por_clave_año,"Las mismas columnas de volumen que entregas_por_clave, por clave x año de fecha_solicitud (2025, 2026; 2026 llega al 23 de octubre). Solo combinaciones con órdenes; sin columnas de precio."
+Hoja,entregas_cruce_procedimientos,"Por clave (43): órdenes activas y sus piezas solicitadas y entregadas cuyo número de procedimiento (licitacion) aparece como id_procedimiento en alguna fila de la base de precios (coincidencia exacta tras quitar espacios y pasar a mayúsculas), en conteo y como parte. Dice para cuánto del volumen entregado hay un procedimiento con precio en la base."
+Hoja,entregas_control,"Control, no lectura: por clave (43), filas y piezas solicitadas y entregadas en ordenes_suministro.csv (todas las filas, canceladas incluidas, porque la pestaña de cumplimiento no marca la cancelación) contra cumplimiento_proveedores.csv, y la diferencia (cumplimiento menos órdenes). Las tablas de entregas usan ordenes_suministro.csv."
+Lectura principal,periodo,2024_2025 (cifras titulares); serie de contexto en las tablas por año: 2019_2026
+Lectura principal,indicador,mediana_ponderada_cantidad
+Lectura principal,comparacion,federal_vs_estatal
+Lectura principal,regla_comparada,mismo_año
+Lectura principal,grupo_requerido,Federal (agrupado)
+Lectura principal,ciclo_bianual_segundo_año,TRUE
+Lectura principal,canal,solo ambulatorio; hospitalario en anexo_canal_hospitalario
+Lectura principal,reclasificar_canal,"TRUE (claves leídas como ambulatorio: 010.000.4158.00, 010.000.1050.00, 010.000.1051.00)"
+Lectura principal,sensibilidad,mediana por fila en todas las tablas; con y sin menudeo de farmacia: conteos en la hoja sensibilidad (excluir_menudeo) y precios en medianas_sin_menudeo
+Resumen lectura principal,periodo,2024_2025 (año fiscal 2024-2025); canal ambulatorio
+Resumen lectura principal,claves_comparadas,35 de 43
+Resumen lectura principal,claves_no_comparadas,8
+Resumen lectura principal,pares_entidad_clave_año,204
+Resumen lectura principal,entidades_con_pares,"10: Aguascalientes, Campeche, Chihuahua, Ciudad de México, Coahuila de Zaragoza, Colima, Jalisco, México, Puebla, Tlaxcala"
+Resumen lectura principal,razon_estatal_federal_mediana_de_pares,"2.653 (indicador principal, mediana ponderada por cantidad; 204 pares)"
+Resumen lectura principal,razon_estatal_federal_p25,1.660
+Resumen lectura principal,razon_estatal_federal_p75,4.239
+Resumen lectura principal,pares_razon_mayor_a_1,187 de 204 (91.7 %)
+Resumen lectura principal,pares_razon_mayor_a_2,128 de 204 (62.7 %)
+Resumen lectura principal,pares_razon_mayor_a_5,36 de 204 (17.6 %)
+Resumen lectura principal,pares_razon_mayor_a_10,12 de 204 (5.9 %)
+Resumen lectura principal,pares_con_una_fila_estatal,125 de 204 (61.3 %)
+Resumen lectura principal,razon_estatal_federal_por_fila_mediana_de_pares,"1.650 (sensibilidad, mediana por fila; 204 pares)"
+Resumen lectura principal,pares_con_ciclo_arrastrado,3 de 204 (1.5 %)
+Resumen lectura principal: 2024,periodo,año fiscal 2024; canal ambulatorio
+Resumen lectura principal: 2024,claves_comparadas,31 de 43
+Resumen lectura principal: 2024,claves_no_comparadas,12
+Resumen lectura principal: 2024,pares_entidad_clave_año,102
+Resumen lectura principal: 2024,entidades_con_pares,"10: Aguascalientes, Campeche, Chihuahua, Ciudad de México, Coahuila de Zaragoza, Colima, Jalisco, México, Puebla, Tlaxcala"
+Resumen lectura principal: 2024,razon_estatal_federal_mediana_de_pares,"2.569 (indicador principal, mediana ponderada por cantidad; 102 pares)"
+Resumen lectura principal: 2024,razon_estatal_federal_p25,1.571
+Resumen lectura principal: 2024,razon_estatal_federal_p75,4.350
+Resumen lectura principal: 2024,pares_razon_mayor_a_1,93 de 102 (91.2 %)
+Resumen lectura principal: 2024,pares_razon_mayor_a_2,61 de 102 (59.8 %)
+Resumen lectura principal: 2024,pares_razon_mayor_a_5,18 de 102 (17.6 %)
+Resumen lectura principal: 2024,pares_razon_mayor_a_10,6 de 102 (5.9 %)
+Resumen lectura principal: 2024,pares_con_una_fila_estatal,58 de 102 (56.9 %)
+Resumen lectura principal: 2024,razon_estatal_federal_por_fila_mediana_de_pares,"1.353 (sensibilidad, mediana por fila; 102 pares)"
+Resumen lectura principal: 2024,pares_con_ciclo_arrastrado,0 de 102 (0.0 %)
+Resumen lectura principal: 2025,periodo,año fiscal 2025; canal ambulatorio
+Resumen lectura principal: 2025,claves_comparadas,33 de 43
+Resumen lectura principal: 2025,claves_no_comparadas,10
+Resumen lectura principal: 2025,pares_entidad_clave_año,102
+Resumen lectura principal: 2025,entidades_con_pares,"8: Campeche, Chihuahua, Ciudad de México, Coahuila de Zaragoza, Colima, Jalisco, México, Tlaxcala"
+Resumen lectura principal: 2025,razon_estatal_federal_mediana_de_pares,"2.658 (indicador principal, mediana ponderada por cantidad; 102 pares)"
+Resumen lectura principal: 2025,razon_estatal_federal_p25,1.689
+Resumen lectura principal: 2025,razon_estatal_federal_p75,3.968
+Resumen lectura principal: 2025,pares_razon_mayor_a_1,94 de 102 (92.2 %)
+Resumen lectura principal: 2025,pares_razon_mayor_a_2,67 de 102 (65.7 %)
+Resumen lectura principal: 2025,pares_razon_mayor_a_5,18 de 102 (17.6 %)
+Resumen lectura principal: 2025,pares_razon_mayor_a_10,6 de 102 (5.9 %)
+Resumen lectura principal: 2025,pares_con_una_fila_estatal,67 de 102 (65.7 %)
+Resumen lectura principal: 2025,razon_estatal_federal_por_fila_mediana_de_pares,"2.123 (sensibilidad, mediana por fila; 102 pares)"
+Resumen lectura principal: 2025,pares_con_ciclo_arrastrado,3 de 102 (2.9 %)
+Resumen lectura principal: clave no comparada,010.000.4152.00,SITAGLIPTINA: sin precio estatal en 2024-2025
+Resumen lectura principal: clave no comparada,010.000.1050.00,INSULINA HUMANA: sin precio estatal en 2024-2025
+Resumen lectura principal: clave no comparada,010.000.1051.00,INSULINA HUMANA: sin precio federal en 2024-2025
+Resumen lectura principal: clave no comparada,040.000.3259.01,CLOZAPINA: sin precio estatal en 2024-2025
+Resumen lectura principal: clave no comparada,040.000.2614.00,CLONAZEPAM: sin filas comparables en la base (ningún año ni canal)
+Resumen lectura principal: clave no comparada,040.000.4486.01,ANFEBUTAMONA O BUPROPIÓN: sin precio estatal en 2024-2025
+Resumen lectura principal: clave no comparada,040.000.3268.00,RISPERIDONA: solo canal hospitalario en 2024-2025
+Resumen lectura principal: clave no comparada,010.000.4489.00,OLANZAPINA: solo canal hospitalario en 2024-2025
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas,periodo,2024_2025 (año fiscal 2024-2025); canal ambulatorio
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas,claves_comparadas,35 de 43
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas,claves_no_comparadas,8
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas,pares_entidad_clave_año,204
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas,entidades_con_pares,"10: Aguascalientes, Campeche, Chihuahua, Ciudad de México, Coahuila de Zaragoza, Colima, Jalisco, México, Puebla, Tlaxcala"
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas,razon_estatal_federal_mediana_de_pares,"2.653 (indicador principal, mediana ponderada por cantidad; 204 pares)"
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas,razon_estatal_federal_p25,1.660
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas,razon_estatal_federal_p75,4.239
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas,pares_razon_mayor_a_1,187 de 204 (91.7 %)
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas,pares_razon_mayor_a_2,128 de 204 (62.7 %)
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas,pares_razon_mayor_a_5,36 de 204 (17.6 %)
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas,pares_razon_mayor_a_10,12 de 204 (5.9 %)
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas,pares_con_una_fila_estatal,125 de 204 (61.3 %)
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas,razon_estatal_federal_por_fila_mediana_de_pares,"1.650 (sensibilidad, mediana por fila; 204 pares)"
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas,pares_con_ciclo_arrastrado,3 de 204 (1.5 %)
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas: 2024,periodo,año fiscal 2024; canal ambulatorio
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas: 2024,claves_comparadas,31 de 43
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas: 2024,claves_no_comparadas,12
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas: 2024,pares_entidad_clave_año,102
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas: 2024,entidades_con_pares,"10: Aguascalientes, Campeche, Chihuahua, Ciudad de México, Coahuila de Zaragoza, Colima, Jalisco, México, Puebla, Tlaxcala"
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas: 2024,razon_estatal_federal_mediana_de_pares,"2.569 (indicador principal, mediana ponderada por cantidad; 102 pares)"
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas: 2024,razon_estatal_federal_p25,1.571
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas: 2024,razon_estatal_federal_p75,4.350
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas: 2024,pares_razon_mayor_a_1,93 de 102 (91.2 %)
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas: 2024,pares_razon_mayor_a_2,61 de 102 (59.8 %)
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas: 2024,pares_razon_mayor_a_5,18 de 102 (17.6 %)
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas: 2024,pares_razon_mayor_a_10,6 de 102 (5.9 %)
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas: 2024,pares_con_una_fila_estatal,58 de 102 (56.9 %)
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas: 2024,razon_estatal_federal_por_fila_mediana_de_pares,"1.353 (sensibilidad, mediana por fila; 102 pares)"
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas: 2024,pares_con_ciclo_arrastrado,0 de 102 (0.0 %)
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas: 2025,periodo,año fiscal 2025; canal ambulatorio
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas: 2025,claves_comparadas,33 de 43
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas: 2025,claves_no_comparadas,10
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas: 2025,pares_entidad_clave_año,102
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas: 2025,entidades_con_pares,"8: Campeche, Chihuahua, Ciudad de México, Coahuila de Zaragoza, Colima, Jalisco, México, Tlaxcala"
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas: 2025,razon_estatal_federal_mediana_de_pares,"2.658 (indicador principal, mediana ponderada por cantidad; 102 pares)"
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas: 2025,razon_estatal_federal_p25,1.689
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas: 2025,razon_estatal_federal_p75,3.968
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas: 2025,pares_razon_mayor_a_1,94 de 102 (92.2 %)
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas: 2025,pares_razon_mayor_a_2,67 de 102 (65.7 %)
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas: 2025,pares_razon_mayor_a_5,18 de 102 (17.6 %)
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas: 2025,pares_razon_mayor_a_10,6 de 102 (5.9 %)
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas: 2025,pares_con_una_fila_estatal,67 de 102 (65.7 %)
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas: 2025,razon_estatal_federal_por_fila_mediana_de_pares,"2.123 (sensibilidad, mediana por fila; 102 pares)"
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas: 2025,pares_con_ciclo_arrastrado,3 de 102 (2.9 %)
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas: clave no comparada,010.000.4152.00,SITAGLIPTINA: sin precio estatal en 2024-2025
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas: clave no comparada,010.000.1050.00,INSULINA HUMANA: sin precio estatal en 2024-2025
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas: clave no comparada,010.000.1051.00,INSULINA HUMANA: sin precio federal en 2024-2025
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas: clave no comparada,040.000.3259.01,CLOZAPINA: sin precio estatal en 2024-2025
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas: clave no comparada,040.000.2614.00,CLONAZEPAM: sin filas comparables en la base (ningún año ni canal)
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas: clave no comparada,040.000.4486.01,ANFEBUTAMONA O BUPROPIÓN: sin precio estatal en 2024-2025
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas: clave no comparada,040.000.3268.00,RISPERIDONA: solo canal hospitalario en 2024-2025
+Sensibilidad: lectura principal sin reclasificar el canal de las insulinas: clave no comparada,010.000.4489.00,OLANZAPINA: solo canal hospitalario en 2024-2025
+Resumen anexo hospitalario,periodo,2024_2025 (año fiscal 2024-2025); canal hospitalario
+Resumen anexo hospitalario,claves_comparadas,2 de 43
+Resumen anexo hospitalario,claves_no_comparadas,41
+Resumen anexo hospitalario,pares_entidad_clave_año,10
+Resumen anexo hospitalario,entidades_con_pares,"6: Aguascalientes, Chihuahua, Coahuila de Zaragoza, Jalisco, México, Puebla"
+Resumen anexo hospitalario,razon_estatal_federal_mediana_de_pares,"1.030 (indicador principal, mediana ponderada por cantidad; 10 pares)"
+Resumen anexo hospitalario,razon_estatal_federal_p25,0.568
+Resumen anexo hospitalario,razon_estatal_federal_p75,1.201
+Resumen anexo hospitalario,pares_razon_mayor_a_1,6 de 10 (60.0 %)
+Resumen anexo hospitalario,pares_razon_mayor_a_2,0 de 10 (0.0 %)
+Resumen anexo hospitalario,pares_razon_mayor_a_5,0 de 10 (0.0 %)
+Resumen anexo hospitalario,pares_razon_mayor_a_10,0 de 10 (0.0 %)
+Resumen anexo hospitalario,pares_con_una_fila_estatal,7 de 10 (70.0 %)
+Resumen anexo hospitalario,razon_estatal_federal_por_fila_mediana_de_pares,"1.022 (sensibilidad, mediana por fila; 10 pares)"
+Resumen anexo hospitalario,pares_con_ciclo_arrastrado,0 de 10 (0.0 %)
+Resumen anexo hospitalario: 2024,periodo,año fiscal 2024; canal hospitalario
+Resumen anexo hospitalario: 2024,claves_comparadas,2 de 43
+Resumen anexo hospitalario: 2024,claves_no_comparadas,41
+Resumen anexo hospitalario: 2024,pares_entidad_clave_año,5
+Resumen anexo hospitalario: 2024,entidades_con_pares,"4: Aguascalientes, Chihuahua, Jalisco, Puebla"
+Resumen anexo hospitalario: 2024,razon_estatal_federal_mediana_de_pares,"1.030 (indicador principal, mediana ponderada por cantidad; 5 pares)"
+Resumen anexo hospitalario: 2024,razon_estatal_federal_p25,0.341
+Resumen anexo hospitalario: 2024,razon_estatal_federal_p75,1.030
+Resumen anexo hospitalario: 2024,pares_razon_mayor_a_1,3 de 5 (60.0 %)
+Resumen anexo hospitalario: 2024,pares_razon_mayor_a_2,0 de 5 (0.0 %)
+Resumen anexo hospitalario: 2024,pares_razon_mayor_a_5,0 de 5 (0.0 %)
+Resumen anexo hospitalario: 2024,pares_razon_mayor_a_10,0 de 5 (0.0 %)
+Resumen anexo hospitalario: 2024,pares_con_una_fila_estatal,3 de 5 (60.0 %)
+Resumen anexo hospitalario: 2024,razon_estatal_federal_por_fila_mediana_de_pares,"1.015 (sensibilidad, mediana por fila; 5 pares)"
+Resumen anexo hospitalario: 2024,pares_con_ciclo_arrastrado,0 de 5 (0.0 %)
+Resumen anexo hospitalario: 2025,periodo,año fiscal 2025; canal hospitalario
+Resumen anexo hospitalario: 2025,claves_comparadas,2 de 43
+Resumen anexo hospitalario: 2025,claves_no_comparadas,41
+Resumen anexo hospitalario: 2025,pares_entidad_clave_año,5
+Resumen anexo hospitalario: 2025,entidades_con_pares,"4: Chihuahua, Coahuila de Zaragoza, Jalisco, México"
+Resumen anexo hospitalario: 2025,razon_estatal_federal_mediana_de_pares,"1.042 (indicador principal, mediana ponderada por cantidad; 5 pares)"
+Resumen anexo hospitalario: 2025,razon_estatal_federal_p25,1.000
+Resumen anexo hospitalario: 2025,razon_estatal_federal_p75,1.255
+Resumen anexo hospitalario: 2025,pares_razon_mayor_a_1,3 de 5 (60.0 %)
+Resumen anexo hospitalario: 2025,pares_razon_mayor_a_2,0 de 5 (0.0 %)
+Resumen anexo hospitalario: 2025,pares_razon_mayor_a_5,0 de 5 (0.0 %)
+Resumen anexo hospitalario: 2025,pares_razon_mayor_a_10,0 de 5 (0.0 %)
+Resumen anexo hospitalario: 2025,pares_con_una_fila_estatal,4 de 5 (80.0 %)
+Resumen anexo hospitalario: 2025,razon_estatal_federal_por_fila_mediana_de_pares,"1.042 (sensibilidad, mediana por fila; 5 pares)"
+Resumen anexo hospitalario: 2025,pares_con_ciclo_arrastrado,0 de 5 (0.0 %)
+Resumen anexo hospitalario: clave no comparada,010.000.4158.00,INSULINA GLARGINA: solo canal ambulatorio en 2024-2025
+Resumen anexo hospitalario: clave no comparada,010.000.5165.00,METFORMINA: solo canal ambulatorio en 2024-2025
+Resumen anexo hospitalario: clave no comparada,010.000.4152.00,SITAGLIPTINA: solo canal ambulatorio en 2024-2025
+Resumen anexo hospitalario: clave no comparada,010.000.1050.00,INSULINA HUMANA: solo canal ambulatorio en 2024-2025
+Resumen anexo hospitalario: clave no comparada,010.000.1051.00,INSULINA HUMANA: solo canal ambulatorio en 2024-2025
+Resumen anexo hospitalario: clave no comparada,010.000.5621.00,LINAGLIPTINA: solo canal ambulatorio en 2024-2025
+Resumen anexo hospitalario: clave no comparada,010.000.4149.00,PIOGLITAZONA: solo canal ambulatorio en 2024-2025
+Resumen anexo hospitalario: clave no comparada,010.000.1042.00,GLIBENCLAMIDA: solo canal ambulatorio en 2024-2025
+Resumen anexo hospitalario: clave no comparada,010.000.6008.00,EMPAGLIFLOZINA: solo canal ambulatorio en 2024-2025
+Resumen anexo hospitalario: clave no comparada,010.000.6007.00,DAPAGLIFLOZINA: solo canal ambulatorio en 2024-2025
+Resumen anexo hospitalario: clave no comparada,040.000.3259.00,CLOZAPINA: solo canal ambulatorio en 2024-2025
+Resumen anexo hospitalario: clave no comparada,040.000.3259.01,CLOZAPINA: solo canal ambulatorio en 2024-2025
+Resumen anexo hospitalario: clave no comparada,040.000.2612.00,CLONAZEPAM: solo canal ambulatorio en 2024-2025
+Resumen anexo hospitalario: clave no comparada,040.000.2613.00,CLONAZEPAM: solo canal ambulatorio en 2024-2025
+Resumen anexo hospitalario: clave no comparada,040.000.2614.00,CLONAZEPAM: sin filas comparables en la base (ningún año ni canal)
+Resumen anexo hospitalario: clave no comparada,040.000.2499.00,ALPRAZOLAM: solo canal ambulatorio en 2024-2025
+Resumen anexo hospitalario: clave no comparada,040.000.2500.00,ALPRAZOLAM: solo canal ambulatorio en 2024-2025
+Resumen anexo hospitalario: clave no comparada,040.000.6298.00,ALPRAZOLAM: solo canal ambulatorio en 2024-2025
+Resumen anexo hospitalario: clave no comparada,040.000.4484.00,SERTRALINA: solo canal ambulatorio en 2024-2025
+Resumen anexo hospitalario: clave no comparada,010.000.2622.00,VALPROATO DE MAGNESIO: solo canal ambulatorio en 2024-2025
+Resumen anexo hospitalario: clave no comparada,010.000.2623.00,VALPROATO DE MAGNESIO: solo canal ambulatorio en 2024-2025
+Resumen anexo hospitalario: clave no comparada,010.000.5359.00,VALPROATO DE MAGNESIO: solo canal ambulatorio en 2024-2025
+Resumen anexo hospitalario: clave no comparada,010.000.4488.00,VENLAFAXINA: solo canal ambulatorio en 2024-2025
+Resumen anexo hospitalario: clave no comparada,010.000.4483.00,FLUOXETINA: solo canal ambulatorio en 2024-2025
+Resumen anexo hospitalario: clave no comparada,010.000.4483.01,FLUOXETINA: solo canal ambulatorio en 2024-2025
+Resumen anexo hospitalario: clave no comparada,040.000.4486.00,ANFEBUTAMONA O BUPROPIÓN: solo canal ambulatorio en 2024-2025
+Resumen anexo hospitalario: clave no comparada,040.000.4486.01,ANFEBUTAMONA O BUPROPIÓN: solo canal ambulatorio en 2024-2025
+Resumen anexo hospitalario: clave no comparada,040.000.3258.00,RISPERIDONA: solo canal ambulatorio en 2024-2025
+Resumen anexo hospitalario: clave no comparada,040.000.3262.00,RISPERIDONA: solo canal ambulatorio en 2024-2025
+Resumen anexo hospitalario: clave no comparada,010.000.5489.00,QUETIAPINA: solo canal ambulatorio en 2024-2025
+Resumen anexo hospitalario: clave no comparada,010.000.5494.00,QUETIAPINA: solo canal ambulatorio en 2024-2025
+Resumen anexo hospitalario: clave no comparada,040.000.6299.00,QUETIAPINA: solo canal ambulatorio en 2024-2025
+Resumen anexo hospitalario: clave no comparada,040.000.3255.00,LITIO: solo canal ambulatorio en 2024-2025
+Resumen anexo hospitalario: clave no comparada,040.000.3305.00,AMITRIPTILINA: solo canal ambulatorio en 2024-2025
+Resumen anexo hospitalario: clave no comparada,010.000.5485.00,OLANZAPINA: solo canal ambulatorio en 2024-2025
+Resumen anexo hospitalario: clave no comparada,010.000.5485.01,OLANZAPINA: solo canal ambulatorio en 2024-2025
+Resumen anexo hospitalario: clave no comparada,010.000.5486.00,OLANZAPINA: solo canal ambulatorio en 2024-2025
+Resumen anexo hospitalario: clave no comparada,010.000.5486.01,OLANZAPINA: solo canal ambulatorio en 2024-2025
+Resumen anexo hospitalario: clave no comparada,010.000.5488.00,VALPROATO SEMISÓDICO: solo canal ambulatorio en 2024-2025
+Resumen anexo hospitalario: clave no comparada,010.000.2630.00,VALPROATO SEMISÓDICO: solo canal ambulatorio en 2024-2025
+Resumen anexo hospitalario: clave no comparada,010.000.5471.00,VALPROATO SEMISÓDICO: solo canal ambulatorio en 2024-2025
+Reclasificación de canal,010.000.4158.00 federal,"insulina glargina: 0 filas comparables de canal hospitalario leídas como ambulatorio (0 en 2024-2025); 0 filas en total, comparables o no"
+Reclasificación de canal,010.000.4158.00 estatal,"insulina glargina: 0 filas comparables de canal hospitalario leídas como ambulatorio (0 en 2024-2025); 0 filas en total, comparables o no"
+Reclasificación de canal,010.000.1050.00 federal,"insulina humana: 0 filas comparables de canal hospitalario leídas como ambulatorio (0 en 2024-2025); 0 filas en total, comparables o no"
+Reclasificación de canal,010.000.1050.00 estatal,"insulina humana: 0 filas comparables de canal hospitalario leídas como ambulatorio (0 en 2024-2025); 0 filas en total, comparables o no"
+Reclasificación de canal,010.000.1051.00 federal,"insulina humana: 0 filas comparables de canal hospitalario leídas como ambulatorio (0 en 2024-2025); 0 filas en total, comparables o no"
+Reclasificación de canal,010.000.1051.00 estatal,"insulina humana: 0 filas comparables de canal hospitalario leídas como ambulatorio (0 en 2024-2025); 0 filas en total, comparables o no"
+Cobertura de la prescripción,IMSS (Ordinario),"99.9 % (87,747,695 de 87,807,213 cajas prescritas en 2023 están en claves comparadas en la lectura principal)"
+Cobertura de la prescripción,ISSSTE,"99.8 % (13,700,451 de 13,726,373 cajas prescritas en 2023 están en claves comparadas en la lectura principal)"
+Compra contra prescripción por clave,ISSSTE 2023,"21 claves con compra y prescripción del mismo año; razón compra/prescripción (cantidad mínima), mediana entre claves: 0.99"
+Aproximación: compra 2025 contra prescripción 2023,IMSS (Ordinario),"81,259,110 cajas al año contra 87,807,213 prescritas (razón 0.93). Filas 52: 52 con [CICLO_BIANUAL] (162,518,220 cajas, divididas entre 2) y 0 sin etiqueta (0 cajas, sin dividir)"
+Aproximación: compra 2025 contra prescripción 2023,ISSSTE,"21,125,724 cajas al año contra 13,726,373 prescritas (razón 1.54). Filas 98: 98 con [CICLO_BIANUAL] (42,251,449 cajas, divididas entre 2) y 0 sin etiqueta (0 cajas, sin dividir)"
+Sobrecosto estatal,definicion,"Sobrecosto de una fila estatal = max(0, (precio por caja - referencia federal) x cantidad en cajas); referencia = mediana ponderada por cantidad del grupo federal agrupado de la clave y el año (indicador principal, con el precio del ciclo bianual arrastrado). Filas estatales de la lectura principal con referencia federal, precio y cantidad positivos. Método de PODER (2021), adaptado. Detalle por año, entidad y clave en la hoja sobrecosto_estatal."
+Sobrecosto estatal,filas_estatales,373
+Sobrecosto estatal,sobrecosto_2024-2025,"59,661,092 de 108,601,700 (54.9 %)"
+Sobrecosto estatal,sobrecosto_2024,"27,111,478 de 57,961,086 (46.8 %)"
+Sobrecosto estatal,sobrecosto_2025,"32,549,614 de 50,640,615 (64.3 %)"
+Sobrecosto estatal,variante_a,"referencia = promedio ponderado federal del mismo año: 59,076,038 de 108,601,700 (54.4 %); 373 filas estatales"
+Sobrecosto estatal,variante_b,"referencia = promedio ponderado de todas las compras, federales y estatales, de la clave y el año: 52,240,970 de 108,844,686 (48.0 %); 383 filas estatales"
+Sobrecosto estatal,variante_c,"referencia principal; cantidad máxima de los contratos abiertos en lugar de la mínima: 99,855,640 de 108,601,700 (91.9 %); 373 filas estatales"
+Sobrecosto estatal,variante_d,"misma fórmula dentro del grupo federal, contra su propio promedio ponderado: 104,470,711 de 9,964,256,297 (1.0 %); 4126 filas federales (con las copias del ciclo bianual)"
+Entregas (plataforma SSA),fuente,"../Plataforma entrega medicamentos/datos/ordenes_suministro.csv (Plataforma de monitoreo de medicamentos de la Secretaría de Salud, compra consolidada federal; sin precios)"
+Entregas (plataforma SSA),canceladas,"Las órdenes con canceladas_activas = CANCELADA no entran en órdenes, piezas, procedimientos ni proveedores; se cuentan aparte en las columnas canceladas_*."
+Entregas (plataforma SSA),claves_en_plataforma,38 de 43
+Entregas (plataforma SSA),ordenes_activas,"34,622"
+Entregas (plataforma SSA),piezas,"203,761,060 entregadas de 272,738,060 solicitadas (74.7 %)"
+Entregas (plataforma SSA),canceladas_totales,"4,649 órdenes; 38,558,304 piezas solicitadas, 1,264,612 entregadas"
+Entregas (plataforma SSA),procedimiento_en_base,"198,688,217 de 203,761,060 piezas entregadas (97.5 %) en órdenes cuyo procedimiento está en la base de precios"
+Entregas (plataforma SSA),control,"cumplimiento_proveedores.csv menos ordenes_suministro.csv (todas las filas): 2 filas, 225 piezas solicitadas, 225 entregadas; claves con alguna diferencia: 2"
+Filtros de la lectura,periodo,2024_2025
+Filtros de la lectura,excluir_entrada_almacen_hgm,FALSE
+Filtros de la lectura,excluir_duplicados_exactos,FALSE
+Filtros de la lectura,excluir_menudeo,FALSE
+Filtros de la lectura,solo_ambulatorio,TRUE
+Filtros de la lectura,columna_precio,precio_unitario_envase_mxn
+Filtros de la serie de contexto,periodo,2019_2026
+Filtros de la serie de contexto,excluir_entrada_almacen_hgm,FALSE
+Filtros de la serie de contexto,excluir_duplicados_exactos,FALSE
+Filtros de la serie de contexto,excluir_menudeo,FALSE
+Filtros de la serie de contexto,solo_ambulatorio,TRUE
+Nota,indicador_principal,"El precio de cada clave x grupo x año es la mediana del precio unitario ponderada por cantidad comprada (mediana_ponderada_cantidad), decidida por Edu el 2026-11-07 y aceptada por Andrés el mismo día. Convención: se ordenan las filas por precio y se toma el menor precio cuya cantidad acumulada alcanza al menos la mitad de la cantidad total. Las filas sin cantidad, con cantidad cero o negativa no entran en la ponderación y se cuentan en n_sin_cantidad; si ninguna fila del grupo tiene cantidad, el indicador queda vacío y el grupo no cuenta para la regla de clave comparada. La mediana por fila se conserva en todas las tablas como sensibilidad."
+Nota,sensibilidad_menudeo,"La sensibilidad con y sin menudeo de farmacia ([MENUDEO_FARMACIA]) está en la hoja sensibilidad: filas con excluir_menudeo = FALSE (con menudeo) y TRUE (sin menudeo), con el indicador principal y, en las columnas _mediana, con la mediana por fila."
+Nota,sensibilidad_menudeo_precios,"La hoja medianas_sin_menudeo da los precios sin las filas de menudeo de farmacia ([MENUDEO_FARMACIA]), en las mismas filas que medianas, con el indicador principal con menudeo al lado y la razón sin/con. Es sensibilidad: la lectura principal incluye el menudeo. Los grupos que solo tenían filas de menudeo quedan con n_filas = 0 y precios vacíos."
+Nota,lectura_principal,"Federal contra estados (comparacion = federal_vs_estatal). Una clave cuenta como comparada cuando, en el mismo año fiscal, tiene mediana ponderada federal agrupada y mediana ponderada en al menos una entidad. La cifra titular es la de los años fiscales 2024 y 2025, cada par dentro de su año (comparada_principal); el conteo en cualquier año de 2019-2026 y el agrupado quedan como contexto. Las demás comparaciones y la rejilla completa siguen calculadas."
+Nota,periodo,"Las cifras titulares son las de los años fiscales 2024 y 2025 (decisión de Andrés del 2026-11-08, como propuso Edu; sustituye a la de solo 2025). La regla sigue siendo la del mismo año: cada par entidad-clave se compara dentro de su año fiscal, y una clave cuenta como comparada si lo está en 2024 o en 2025. Dónde están: sección Resumen lectura principal de esta hoja (con el mismo bloque para 2024 solo y 2025 solo), fila lectura_principal de sensibilidad, comparada_principal en claves_comparadas y par_principal en brecha_federal_estatal. Las tablas por año cubren la serie de contexto 2019-2026. El año fiscal 2027 (ciclo federal 27.28) sigue en la base pero queda fuera de todas las tablas, salvo en la rejilla de sensibilidad (periodos todo y 2024_2027)."
+Nota,canal,"La lectura principal usa solo filas de canal ambulatorio (solo_ambulatorio = TRUE; decisión de Andrés del 2026-11-08, sobre la decisión (3) de Edu del 2026-11-07 en el diccionario). Las filas de canal hospitalario no se descartan: se comparan aparte en las hojas anexo_canal_hospitalario y anexo_canal_hospitalario_claves, nunca mezcladas con las tablas principales. Todas las tablas principales, incluida medianas, se calculan con este filtro; la hoja sensibilidad recorre también solo_ambulatorio = FALSE."
+Nota,reclasificacion_canal,"Las tres claves de insulina (010.000.4158.00 insulina glargina; 010.000.1050.00 y 010.000.1051.00 insulina humana) se leen como canal ambulatorio, diga lo que diga la columna canal de la base, que clasifica como hospitalario casi todas sus filas federales: se dispensan en primer nivel de atención (decisión de Andrés del 2026-11-08). Entran en la lectura principal y salen del anexo hospitalario. La base no cambia; la lista está en config$claves_canal_ambulatorio y el interruptor en lectura_principal$reclasificar_canal. Filas movidas: sección Reclasificación de canal y hoja reclasificacion_canal. La lectura principal sin la reclasificación está en la sección Sensibilidad de esta hoja."
+Nota,prescripcion_ocamis,"Comparador de calidad: cuánto de lo que prescriben el IMSS (Ordinario) y el ISSSTE capta la lectura, con las cajas prescritas en OCAMIS (hoja datos de ocamis_43_claves_semana_institucion_estado.xlsx; las cantidades son cajas, la misma unidad que cantidad_envases). OCAMIS termina a inicios de 2024, así que 2023 es el último año completo. La sección Cobertura de la prescripción da la parte del volumen prescrito en 2023 que corresponde a claves comparadas en la lectura principal; las hojas cobertura_prescripcion, compra_vs_prescripcion y compra_2025_vs_presc_2023 dan el detalle."
+Nota,ciclo_bianual,"La compra consolidada federal adjudica un precio por ciclo de dos años (25.26 cubre 2025 y 2026); la base la registra una vez, en el primer año, con [CICLO_BIANUAL]. En la comparación federal contra estados (brecha_federal_estatal, claves_comparadas y sensibilidad en federal_vs_estatal, y el anexo hospitalario) ese precio también sirve de referencia federal en el segundo año del ciclo: la referencia federal de ese año junta las filas federales fechadas en él con las del ciclo, y la mediana ponderada se calcula sobre todas, cada una con su cantidad. Las demás tablas (medianas, serie_real_por_clave, dispersión, cobertura) conservan una fila por adjudicación: no se duplican filas, cantidades ni montos. Decisión de Andrés del 2026-11-08, sobre la decisión (4) de Edu del 2026-11-07."
+Nota,contrato_abierto,"En contrato abierto ([CONTRATO_ABIERTO]) la ponderación usa la cantidad mínima adjudicada (cantidad_envases), no la máxima (cantidad_maxima_envases), como fija el diccionario de datos (columna 21). Confirmado por Andrés el 2026-11-08; el cálculo no cambió."
+Nota,grupo_requerido,La regla del grupo federal requerido se aplica a todas las filas federal_vs_estatal (claves_comparadas y sensibilidad): una clave con dos entidades y sin precio federal ese año no cuenta.
+Nota,deflacion,"Pesos de 2025 con el INPC general (Banxico SIE, serie SP1). INPC anual = promedio de los meses disponibles del año calendario; factor = INPC 2025 / INPC del año; precio real = nominal x factor. 2026 solo tiene enero a agosto (inpc_meses = 8). El año fiscal 2027 no tiene INPC: su precio real queda vacío, nunca nominal."
+Nota,razones,"Las razones y comparaciones dentro de un mismo año (razón ISSSTE/IMSS, razón estatal/federal, filas sobre 2x y 5x) son idénticas en pesos nominales y reales. Los precios reales solo importan al comparar entre años; las diferencias en pesos sí cambian."
+Insumo,archivo,/home/castanedaprado/repos/tm-precios-salud/data/base_precios.csv
+Insumo,sha256,14618582e0f5a8232516ee728bd551691dbe567b4fbd0c4fb4a8e490d666707f
+Insumo,fecha_corrida,2026-11-10 00:29 CST
+Insumo,precios,Nominales y en pesos de 2025 (sufijo _real_2025)
+Insumo,inpc_archivo,datos/inpc_general_mensual.csv
+Insumo,inpc_sha256,e60a1c59c4bb5fe52e3fc0f73fe8b8b1756a80b00c045f7dc5c3c49059d2045f
+Deflactor,2019,INPC anual 103.9007 (12 meses); factor a 2025 1.352659
+Deflactor,2020,INPC anual 107.4300 (12 meses); factor a 2025 1.308221
+Deflactor,2021,INPC anual 113.5419 (12 meses); factor a 2025 1.237800
+Deflactor,2022,INPC anual 122.5075 (12 meses); factor a 2025 1.147213
+Deflactor,2023,INPC anual 129.2797 (12 meses); factor a 2025 1.087117
+Deflactor,2024,INPC anual 135.3846 (12 meses); factor a 2025 1.038096
+Deflactor,2025,INPC anual 140.5422 (12 meses); factor a 2025 1.000000
+Deflactor,2026,INPC anual 145.0699 (8 meses); factor a 2025 0.968789
+Ancla,filas,esperado 20038; medido 20038
+Ancla,filas_comparables,esperado 8736; medido 8736
+Ancla,claves_con_precio,esperado 42; medido 42
+Ancla,claves_sin_precio,esperado 040.000.2614.00; medido 040.000.2614.00
+Ancla,claves_imss_issste,esperado 25; medido 25
+Ancla,claves_imss_issste_2025,esperado 19; medido 19
+Ancla,entidades_estatales,esperado 11; medido 11
+Ancla,filas_entrada_almacen,esperado 0; medido 0

@@ -1,0 +1,3 @@
+clave_cnis,componente,canal,n_filas_federal,n_filas_estatal,pares_estatal_año_con_federal,n_grupos,comparada_agrupado,años_comparados,comparada_mismo_año,comparada_principal,n_grupos_mediana,comparada_agrupado_mediana,años_comparados_mediana,comparada_mismo_año_mediana,comparada_principal_mediana
+010.000.4489.00,OLANZAPINA,hospitalario,939,11,8,6,TRUE,"2020, 2022, 2023, 2024, 2025",TRUE,TRUE,6,TRUE,"2020, 2022, 2023, 2024, 2025",TRUE,TRUE
+040.000.3268.00,RISPERIDONA,hospitalario,28,24,10,6,TRUE,"2020, 2022, 2024, 2025, 2026",TRUE,TRUE,6,TRUE,"2020, 2022, 2024, 2025, 2026",TRUE,TRUE

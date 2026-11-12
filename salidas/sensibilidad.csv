@@ -1,0 +1,401 @@
+comparacion,periodo,excluir_entrada_almacen_hgm,excluir_duplicados_exactos,excluir_menudeo,solo_ambulatorio,grupo_requerido,indicador,filas_usadas,filas_sin_cantidad,claves_con_precio,claves_con_indicador,n_grupos,claves_comparadas_agrupado,claves_comparadas_mismo_año,claves_comparadas_agrupado_mediana,claves_comparadas_mismo_año_mediana,lectura_principal,parametros_distintos_a_base,alcanza_umbral_agrupado,alcanza_umbral_mismo_año
+imss_issste,todo,FALSE,FALSE,FALSE,FALSE,,mediana_ponderada_cantidad,319,0,36,36,2,25,25,25,25,FALSE,2,FALSE,FALSE
+imss_issste,todo,FALSE,FALSE,FALSE,TRUE,,mediana_ponderada_cantidad,308,0,34,34,2,23,23,23,23,FALSE,1,FALSE,FALSE
+imss_issste,todo,FALSE,FALSE,TRUE,FALSE,,mediana_ponderada_cantidad,319,0,36,36,2,25,25,25,25,FALSE,3,FALSE,FALSE
+imss_issste,todo,FALSE,FALSE,TRUE,TRUE,,mediana_ponderada_cantidad,308,0,34,34,2,23,23,23,23,FALSE,2,FALSE,FALSE
+imss_issste,todo,FALSE,TRUE,FALSE,FALSE,,mediana_ponderada_cantidad,319,0,36,36,2,25,25,25,25,FALSE,3,FALSE,FALSE
+imss_issste,todo,FALSE,TRUE,FALSE,TRUE,,mediana_ponderada_cantidad,308,0,34,34,2,23,23,23,23,FALSE,2,FALSE,FALSE
+imss_issste,todo,FALSE,TRUE,TRUE,FALSE,,mediana_ponderada_cantidad,319,0,36,36,2,25,25,25,25,FALSE,4,FALSE,FALSE
+imss_issste,todo,FALSE,TRUE,TRUE,TRUE,,mediana_ponderada_cantidad,308,0,34,34,2,23,23,23,23,FALSE,3,FALSE,FALSE
+imss_issste,todo,TRUE,FALSE,FALSE,FALSE,,mediana_ponderada_cantidad,319,0,36,36,2,25,25,25,25,FALSE,3,FALSE,FALSE
+imss_issste,todo,TRUE,FALSE,FALSE,TRUE,,mediana_ponderada_cantidad,308,0,34,34,2,23,23,23,23,FALSE,2,FALSE,FALSE
+imss_issste,todo,TRUE,FALSE,TRUE,FALSE,,mediana_ponderada_cantidad,319,0,36,36,2,25,25,25,25,FALSE,4,FALSE,FALSE
+imss_issste,todo,TRUE,FALSE,TRUE,TRUE,,mediana_ponderada_cantidad,308,0,34,34,2,23,23,23,23,FALSE,3,FALSE,FALSE
+imss_issste,todo,TRUE,TRUE,FALSE,FALSE,,mediana_ponderada_cantidad,319,0,36,36,2,25,25,25,25,FALSE,4,FALSE,FALSE
+imss_issste,todo,TRUE,TRUE,FALSE,TRUE,,mediana_ponderada_cantidad,308,0,34,34,2,23,23,23,23,FALSE,3,FALSE,FALSE
+imss_issste,todo,TRUE,TRUE,TRUE,FALSE,,mediana_ponderada_cantidad,319,0,36,36,2,25,25,25,25,FALSE,5,FALSE,FALSE
+imss_issste,todo,TRUE,TRUE,TRUE,TRUE,,mediana_ponderada_cantidad,308,0,34,34,2,23,23,23,23,FALSE,4,FALSE,FALSE
+imss_issste,2019_2026,FALSE,FALSE,FALSE,FALSE,,mediana_ponderada_cantidad,316,0,36,36,2,25,25,25,25,FALSE,2,FALSE,FALSE
+imss_issste,2019_2026,FALSE,FALSE,FALSE,TRUE,,mediana_ponderada_cantidad,305,0,34,34,2,23,23,23,23,FALSE,1,FALSE,FALSE
+imss_issste,2019_2026,FALSE,FALSE,TRUE,FALSE,,mediana_ponderada_cantidad,316,0,36,36,2,25,25,25,25,FALSE,3,FALSE,FALSE
+imss_issste,2019_2026,FALSE,FALSE,TRUE,TRUE,,mediana_ponderada_cantidad,305,0,34,34,2,23,23,23,23,FALSE,2,FALSE,FALSE
+imss_issste,2019_2026,FALSE,TRUE,FALSE,FALSE,,mediana_ponderada_cantidad,316,0,36,36,2,25,25,25,25,FALSE,3,FALSE,FALSE
+imss_issste,2019_2026,FALSE,TRUE,FALSE,TRUE,,mediana_ponderada_cantidad,305,0,34,34,2,23,23,23,23,FALSE,2,FALSE,FALSE
+imss_issste,2019_2026,FALSE,TRUE,TRUE,FALSE,,mediana_ponderada_cantidad,316,0,36,36,2,25,25,25,25,FALSE,4,FALSE,FALSE
+imss_issste,2019_2026,FALSE,TRUE,TRUE,TRUE,,mediana_ponderada_cantidad,305,0,34,34,2,23,23,23,23,FALSE,3,FALSE,FALSE
+imss_issste,2019_2026,TRUE,FALSE,FALSE,FALSE,,mediana_ponderada_cantidad,316,0,36,36,2,25,25,25,25,FALSE,3,FALSE,FALSE
+imss_issste,2019_2026,TRUE,FALSE,FALSE,TRUE,,mediana_ponderada_cantidad,305,0,34,34,2,23,23,23,23,FALSE,2,FALSE,FALSE
+imss_issste,2019_2026,TRUE,FALSE,TRUE,FALSE,,mediana_ponderada_cantidad,316,0,36,36,2,25,25,25,25,FALSE,4,FALSE,FALSE
+imss_issste,2019_2026,TRUE,FALSE,TRUE,TRUE,,mediana_ponderada_cantidad,305,0,34,34,2,23,23,23,23,FALSE,3,FALSE,FALSE
+imss_issste,2019_2026,TRUE,TRUE,FALSE,FALSE,,mediana_ponderada_cantidad,316,0,36,36,2,25,25,25,25,FALSE,4,FALSE,FALSE
+imss_issste,2019_2026,TRUE,TRUE,FALSE,TRUE,,mediana_ponderada_cantidad,305,0,34,34,2,23,23,23,23,FALSE,3,FALSE,FALSE
+imss_issste,2019_2026,TRUE,TRUE,TRUE,FALSE,,mediana_ponderada_cantidad,316,0,36,36,2,25,25,25,25,FALSE,5,FALSE,FALSE
+imss_issste,2019_2026,TRUE,TRUE,TRUE,TRUE,,mediana_ponderada_cantidad,305,0,34,34,2,23,23,23,23,FALSE,4,FALSE,FALSE
+imss_issste,2024_2027,FALSE,FALSE,FALSE,FALSE,,mediana_ponderada_cantidad,185,0,34,34,2,20,19,20,19,FALSE,2,FALSE,FALSE
+imss_issste,2024_2027,FALSE,FALSE,FALSE,TRUE,,mediana_ponderada_cantidad,182,0,33,33,2,19,18,19,18,FALSE,1,FALSE,FALSE
+imss_issste,2024_2027,FALSE,FALSE,TRUE,FALSE,,mediana_ponderada_cantidad,185,0,34,34,2,20,19,20,19,FALSE,3,FALSE,FALSE
+imss_issste,2024_2027,FALSE,FALSE,TRUE,TRUE,,mediana_ponderada_cantidad,182,0,33,33,2,19,18,19,18,FALSE,2,FALSE,FALSE
+imss_issste,2024_2027,FALSE,TRUE,FALSE,FALSE,,mediana_ponderada_cantidad,185,0,34,34,2,20,19,20,19,FALSE,3,FALSE,FALSE
+imss_issste,2024_2027,FALSE,TRUE,FALSE,TRUE,,mediana_ponderada_cantidad,182,0,33,33,2,19,18,19,18,FALSE,2,FALSE,FALSE
+imss_issste,2024_2027,FALSE,TRUE,TRUE,FALSE,,mediana_ponderada_cantidad,185,0,34,34,2,20,19,20,19,FALSE,4,FALSE,FALSE
+imss_issste,2024_2027,FALSE,TRUE,TRUE,TRUE,,mediana_ponderada_cantidad,182,0,33,33,2,19,18,19,18,FALSE,3,FALSE,FALSE
+imss_issste,2024_2027,TRUE,FALSE,FALSE,FALSE,,mediana_ponderada_cantidad,185,0,34,34,2,20,19,20,19,FALSE,3,FALSE,FALSE
+imss_issste,2024_2027,TRUE,FALSE,FALSE,TRUE,,mediana_ponderada_cantidad,182,0,33,33,2,19,18,19,18,FALSE,2,FALSE,FALSE
+imss_issste,2024_2027,TRUE,FALSE,TRUE,FALSE,,mediana_ponderada_cantidad,185,0,34,34,2,20,19,20,19,FALSE,4,FALSE,FALSE
+imss_issste,2024_2027,TRUE,FALSE,TRUE,TRUE,,mediana_ponderada_cantidad,182,0,33,33,2,19,18,19,18,FALSE,3,FALSE,FALSE
+imss_issste,2024_2027,TRUE,TRUE,FALSE,FALSE,,mediana_ponderada_cantidad,185,0,34,34,2,20,19,20,19,FALSE,4,FALSE,FALSE
+imss_issste,2024_2027,TRUE,TRUE,FALSE,TRUE,,mediana_ponderada_cantidad,182,0,33,33,2,19,18,19,18,FALSE,3,FALSE,FALSE
+imss_issste,2024_2027,TRUE,TRUE,TRUE,FALSE,,mediana_ponderada_cantidad,185,0,34,34,2,20,19,20,19,FALSE,5,FALSE,FALSE
+imss_issste,2024_2027,TRUE,TRUE,TRUE,TRUE,,mediana_ponderada_cantidad,182,0,33,33,2,19,18,19,18,FALSE,4,FALSE,FALSE
+imss_issste,2024_2025,FALSE,FALSE,FALSE,FALSE,,mediana_ponderada_cantidad,178,0,34,34,2,20,19,20,19,FALSE,1,FALSE,FALSE
+imss_issste,2024_2025,FALSE,FALSE,FALSE,TRUE,,mediana_ponderada_cantidad,175,0,33,33,2,19,18,19,18,FALSE,0,FALSE,FALSE
+imss_issste,2024_2025,FALSE,FALSE,TRUE,FALSE,,mediana_ponderada_cantidad,178,0,34,34,2,20,19,20,19,FALSE,2,FALSE,FALSE
+imss_issste,2024_2025,FALSE,FALSE,TRUE,TRUE,,mediana_ponderada_cantidad,175,0,33,33,2,19,18,19,18,FALSE,1,FALSE,FALSE
+imss_issste,2024_2025,FALSE,TRUE,FALSE,FALSE,,mediana_ponderada_cantidad,178,0,34,34,2,20,19,20,19,FALSE,2,FALSE,FALSE
+imss_issste,2024_2025,FALSE,TRUE,FALSE,TRUE,,mediana_ponderada_cantidad,175,0,33,33,2,19,18,19,18,FALSE,1,FALSE,FALSE
+imss_issste,2024_2025,FALSE,TRUE,TRUE,FALSE,,mediana_ponderada_cantidad,178,0,34,34,2,20,19,20,19,FALSE,3,FALSE,FALSE
+imss_issste,2024_2025,FALSE,TRUE,TRUE,TRUE,,mediana_ponderada_cantidad,175,0,33,33,2,19,18,19,18,FALSE,2,FALSE,FALSE
+imss_issste,2024_2025,TRUE,FALSE,FALSE,FALSE,,mediana_ponderada_cantidad,178,0,34,34,2,20,19,20,19,FALSE,2,FALSE,FALSE
+imss_issste,2024_2025,TRUE,FALSE,FALSE,TRUE,,mediana_ponderada_cantidad,175,0,33,33,2,19,18,19,18,FALSE,1,FALSE,FALSE
+imss_issste,2024_2025,TRUE,FALSE,TRUE,FALSE,,mediana_ponderada_cantidad,178,0,34,34,2,20,19,20,19,FALSE,3,FALSE,FALSE
+imss_issste,2024_2025,TRUE,FALSE,TRUE,TRUE,,mediana_ponderada_cantidad,175,0,33,33,2,19,18,19,18,FALSE,2,FALSE,FALSE
+imss_issste,2024_2025,TRUE,TRUE,FALSE,FALSE,,mediana_ponderada_cantidad,178,0,34,34,2,20,19,20,19,FALSE,3,FALSE,FALSE
+imss_issste,2024_2025,TRUE,TRUE,FALSE,TRUE,,mediana_ponderada_cantidad,175,0,33,33,2,19,18,19,18,FALSE,2,FALSE,FALSE
+imss_issste,2024_2025,TRUE,TRUE,TRUE,FALSE,,mediana_ponderada_cantidad,178,0,34,34,2,20,19,20,19,FALSE,4,FALSE,FALSE
+imss_issste,2024_2025,TRUE,TRUE,TRUE,TRUE,,mediana_ponderada_cantidad,175,0,33,33,2,19,18,19,18,FALSE,3,FALSE,FALSE
+imss_issste,solo_2025,FALSE,FALSE,FALSE,FALSE,,mediana_ponderada_cantidad,150,0,34,34,2,19,19,19,19,FALSE,2,FALSE,FALSE
+imss_issste,solo_2025,FALSE,FALSE,FALSE,TRUE,,mediana_ponderada_cantidad,147,0,33,33,2,18,18,18,18,FALSE,1,FALSE,FALSE
+imss_issste,solo_2025,FALSE,FALSE,TRUE,FALSE,,mediana_ponderada_cantidad,150,0,34,34,2,19,19,19,19,FALSE,3,FALSE,FALSE
+imss_issste,solo_2025,FALSE,FALSE,TRUE,TRUE,,mediana_ponderada_cantidad,147,0,33,33,2,18,18,18,18,FALSE,2,FALSE,FALSE
+imss_issste,solo_2025,FALSE,TRUE,FALSE,FALSE,,mediana_ponderada_cantidad,150,0,34,34,2,19,19,19,19,FALSE,3,FALSE,FALSE
+imss_issste,solo_2025,FALSE,TRUE,FALSE,TRUE,,mediana_ponderada_cantidad,147,0,33,33,2,18,18,18,18,FALSE,2,FALSE,FALSE
+imss_issste,solo_2025,FALSE,TRUE,TRUE,FALSE,,mediana_ponderada_cantidad,150,0,34,34,2,19,19,19,19,FALSE,4,FALSE,FALSE
+imss_issste,solo_2025,FALSE,TRUE,TRUE,TRUE,,mediana_ponderada_cantidad,147,0,33,33,2,18,18,18,18,FALSE,3,FALSE,FALSE
+imss_issste,solo_2025,TRUE,FALSE,FALSE,FALSE,,mediana_ponderada_cantidad,150,0,34,34,2,19,19,19,19,FALSE,3,FALSE,FALSE
+imss_issste,solo_2025,TRUE,FALSE,FALSE,TRUE,,mediana_ponderada_cantidad,147,0,33,33,2,18,18,18,18,FALSE,2,FALSE,FALSE
+imss_issste,solo_2025,TRUE,FALSE,TRUE,FALSE,,mediana_ponderada_cantidad,150,0,34,34,2,19,19,19,19,FALSE,4,FALSE,FALSE
+imss_issste,solo_2025,TRUE,FALSE,TRUE,TRUE,,mediana_ponderada_cantidad,147,0,33,33,2,18,18,18,18,FALSE,3,FALSE,FALSE
+imss_issste,solo_2025,TRUE,TRUE,FALSE,FALSE,,mediana_ponderada_cantidad,150,0,34,34,2,19,19,19,19,FALSE,4,FALSE,FALSE
+imss_issste,solo_2025,TRUE,TRUE,FALSE,TRUE,,mediana_ponderada_cantidad,147,0,33,33,2,18,18,18,18,FALSE,3,FALSE,FALSE
+imss_issste,solo_2025,TRUE,TRUE,TRUE,FALSE,,mediana_ponderada_cantidad,150,0,34,34,2,19,19,19,19,FALSE,5,FALSE,FALSE
+imss_issste,solo_2025,TRUE,TRUE,TRUE,TRUE,,mediana_ponderada_cantidad,147,0,33,33,2,18,18,18,18,FALSE,4,FALSE,FALSE
+tres_federales,todo,FALSE,FALSE,FALSE,FALSE,,mediana_ponderada_cantidad,2078,0,37,37,3,35,35,35,35,FALSE,2,TRUE,TRUE
+tres_federales,todo,FALSE,FALSE,FALSE,TRUE,,mediana_ponderada_cantidad,2065,0,35,35,3,33,33,33,33,FALSE,1,TRUE,TRUE
+tres_federales,todo,FALSE,FALSE,TRUE,FALSE,,mediana_ponderada_cantidad,2078,0,37,37,3,35,35,35,35,FALSE,3,TRUE,TRUE
+tres_federales,todo,FALSE,FALSE,TRUE,TRUE,,mediana_ponderada_cantidad,2065,0,35,35,3,33,33,33,33,FALSE,2,TRUE,TRUE
+tres_federales,todo,FALSE,TRUE,FALSE,FALSE,,mediana_ponderada_cantidad,2072,0,37,37,3,35,35,35,35,FALSE,3,TRUE,TRUE
+tres_federales,todo,FALSE,TRUE,FALSE,TRUE,,mediana_ponderada_cantidad,2059,0,35,35,3,33,33,33,33,FALSE,2,TRUE,TRUE
+tres_federales,todo,FALSE,TRUE,TRUE,FALSE,,mediana_ponderada_cantidad,2072,0,37,37,3,35,35,35,35,FALSE,4,TRUE,TRUE
+tres_federales,todo,FALSE,TRUE,TRUE,TRUE,,mediana_ponderada_cantidad,2059,0,35,35,3,33,33,33,33,FALSE,3,TRUE,TRUE
+tres_federales,todo,TRUE,FALSE,FALSE,FALSE,,mediana_ponderada_cantidad,2078,0,37,37,3,35,35,35,35,FALSE,3,TRUE,TRUE
+tres_federales,todo,TRUE,FALSE,FALSE,TRUE,,mediana_ponderada_cantidad,2065,0,35,35,3,33,33,33,33,FALSE,2,TRUE,TRUE
+tres_federales,todo,TRUE,FALSE,TRUE,FALSE,,mediana_ponderada_cantidad,2078,0,37,37,3,35,35,35,35,FALSE,4,TRUE,TRUE
+tres_federales,todo,TRUE,FALSE,TRUE,TRUE,,mediana_ponderada_cantidad,2065,0,35,35,3,33,33,33,33,FALSE,3,TRUE,TRUE
+tres_federales,todo,TRUE,TRUE,FALSE,FALSE,,mediana_ponderada_cantidad,2072,0,37,37,3,35,35,35,35,FALSE,4,TRUE,TRUE
+tres_federales,todo,TRUE,TRUE,FALSE,TRUE,,mediana_ponderada_cantidad,2059,0,35,35,3,33,33,33,33,FALSE,3,TRUE,TRUE
+tres_federales,todo,TRUE,TRUE,TRUE,FALSE,,mediana_ponderada_cantidad,2072,0,37,37,3,35,35,35,35,FALSE,5,TRUE,TRUE
+tres_federales,todo,TRUE,TRUE,TRUE,TRUE,,mediana_ponderada_cantidad,2059,0,35,35,3,33,33,33,33,FALSE,4,TRUE,TRUE
+tres_federales,2019_2026,FALSE,FALSE,FALSE,FALSE,,mediana_ponderada_cantidad,2075,0,37,37,3,35,35,35,35,FALSE,2,TRUE,TRUE
+tres_federales,2019_2026,FALSE,FALSE,FALSE,TRUE,,mediana_ponderada_cantidad,2062,0,35,35,3,33,33,33,33,FALSE,1,TRUE,TRUE
+tres_federales,2019_2026,FALSE,FALSE,TRUE,FALSE,,mediana_ponderada_cantidad,2075,0,37,37,3,35,35,35,35,FALSE,3,TRUE,TRUE
+tres_federales,2019_2026,FALSE,FALSE,TRUE,TRUE,,mediana_ponderada_cantidad,2062,0,35,35,3,33,33,33,33,FALSE,2,TRUE,TRUE
+tres_federales,2019_2026,FALSE,TRUE,FALSE,FALSE,,mediana_ponderada_cantidad,2069,0,37,37,3,35,35,35,35,FALSE,3,TRUE,TRUE
+tres_federales,2019_2026,FALSE,TRUE,FALSE,TRUE,,mediana_ponderada_cantidad,2056,0,35,35,3,33,33,33,33,FALSE,2,TRUE,TRUE
+tres_federales,2019_2026,FALSE,TRUE,TRUE,FALSE,,mediana_ponderada_cantidad,2069,0,37,37,3,35,35,35,35,FALSE,4,TRUE,TRUE
+tres_federales,2019_2026,FALSE,TRUE,TRUE,TRUE,,mediana_ponderada_cantidad,2056,0,35,35,3,33,33,33,33,FALSE,3,TRUE,TRUE
+tres_federales,2019_2026,TRUE,FALSE,FALSE,FALSE,,mediana_ponderada_cantidad,2075,0,37,37,3,35,35,35,35,FALSE,3,TRUE,TRUE
+tres_federales,2019_2026,TRUE,FALSE,FALSE,TRUE,,mediana_ponderada_cantidad,2062,0,35,35,3,33,33,33,33,FALSE,2,TRUE,TRUE
+tres_federales,2019_2026,TRUE,FALSE,TRUE,FALSE,,mediana_ponderada_cantidad,2075,0,37,37,3,35,35,35,35,FALSE,4,TRUE,TRUE
+tres_federales,2019_2026,TRUE,FALSE,TRUE,TRUE,,mediana_ponderada_cantidad,2062,0,35,35,3,33,33,33,33,FALSE,3,TRUE,TRUE
+tres_federales,2019_2026,TRUE,TRUE,FALSE,FALSE,,mediana_ponderada_cantidad,2069,0,37,37,3,35,35,35,35,FALSE,4,TRUE,TRUE
+tres_federales,2019_2026,TRUE,TRUE,FALSE,TRUE,,mediana_ponderada_cantidad,2056,0,35,35,3,33,33,33,33,FALSE,3,TRUE,TRUE
+tres_federales,2019_2026,TRUE,TRUE,TRUE,FALSE,,mediana_ponderada_cantidad,2069,0,37,37,3,35,35,35,35,FALSE,5,TRUE,TRUE
+tres_federales,2019_2026,TRUE,TRUE,TRUE,TRUE,,mediana_ponderada_cantidad,2056,0,35,35,3,33,33,33,33,FALSE,4,TRUE,TRUE
+tres_federales,2024_2027,FALSE,FALSE,FALSE,FALSE,,mediana_ponderada_cantidad,1944,0,35,35,3,32,32,32,32,FALSE,2,TRUE,TRUE
+tres_federales,2024_2027,FALSE,FALSE,FALSE,TRUE,,mediana_ponderada_cantidad,1939,0,34,34,3,31,31,31,31,FALSE,1,TRUE,TRUE
+tres_federales,2024_2027,FALSE,FALSE,TRUE,FALSE,,mediana_ponderada_cantidad,1944,0,35,35,3,32,32,32,32,FALSE,3,TRUE,TRUE
+tres_federales,2024_2027,FALSE,FALSE,TRUE,TRUE,,mediana_ponderada_cantidad,1939,0,34,34,3,31,31,31,31,FALSE,2,TRUE,TRUE
+tres_federales,2024_2027,FALSE,TRUE,FALSE,FALSE,,mediana_ponderada_cantidad,1938,0,35,35,3,32,32,32,32,FALSE,3,TRUE,TRUE
+tres_federales,2024_2027,FALSE,TRUE,FALSE,TRUE,,mediana_ponderada_cantidad,1933,0,34,34,3,31,31,31,31,FALSE,2,TRUE,TRUE
+tres_federales,2024_2027,FALSE,TRUE,TRUE,FALSE,,mediana_ponderada_cantidad,1938,0,35,35,3,32,32,32,32,FALSE,4,TRUE,TRUE
+tres_federales,2024_2027,FALSE,TRUE,TRUE,TRUE,,mediana_ponderada_cantidad,1933,0,34,34,3,31,31,31,31,FALSE,3,TRUE,TRUE
+tres_federales,2024_2027,TRUE,FALSE,FALSE,FALSE,,mediana_ponderada_cantidad,1944,0,35,35,3,32,32,32,32,FALSE,3,TRUE,TRUE
+tres_federales,2024_2027,TRUE,FALSE,FALSE,TRUE,,mediana_ponderada_cantidad,1939,0,34,34,3,31,31,31,31,FALSE,2,TRUE,TRUE
+tres_federales,2024_2027,TRUE,FALSE,TRUE,FALSE,,mediana_ponderada_cantidad,1944,0,35,35,3,32,32,32,32,FALSE,4,TRUE,TRUE
+tres_federales,2024_2027,TRUE,FALSE,TRUE,TRUE,,mediana_ponderada_cantidad,1939,0,34,34,3,31,31,31,31,FALSE,3,TRUE,TRUE
+tres_federales,2024_2027,TRUE,TRUE,FALSE,FALSE,,mediana_ponderada_cantidad,1938,0,35,35,3,32,32,32,32,FALSE,4,TRUE,TRUE
+tres_federales,2024_2027,TRUE,TRUE,FALSE,TRUE,,mediana_ponderada_cantidad,1933,0,34,34,3,31,31,31,31,FALSE,3,TRUE,TRUE
+tres_federales,2024_2027,TRUE,TRUE,TRUE,FALSE,,mediana_ponderada_cantidad,1938,0,35,35,3,32,32,32,32,FALSE,5,TRUE,TRUE
+tres_federales,2024_2027,TRUE,TRUE,TRUE,TRUE,,mediana_ponderada_cantidad,1933,0,34,34,3,31,31,31,31,FALSE,4,TRUE,TRUE
+tres_federales,2024_2025,FALSE,FALSE,FALSE,FALSE,,mediana_ponderada_cantidad,1936,0,35,35,3,32,32,32,32,FALSE,1,TRUE,TRUE
+tres_federales,2024_2025,FALSE,FALSE,FALSE,TRUE,,mediana_ponderada_cantidad,1931,0,34,34,3,31,31,31,31,FALSE,0,TRUE,TRUE
+tres_federales,2024_2025,FALSE,FALSE,TRUE,FALSE,,mediana_ponderada_cantidad,1936,0,35,35,3,32,32,32,32,FALSE,2,TRUE,TRUE
+tres_federales,2024_2025,FALSE,FALSE,TRUE,TRUE,,mediana_ponderada_cantidad,1931,0,34,34,3,31,31,31,31,FALSE,1,TRUE,TRUE
+tres_federales,2024_2025,FALSE,TRUE,FALSE,FALSE,,mediana_ponderada_cantidad,1930,0,35,35,3,32,32,32,32,FALSE,2,TRUE,TRUE
+tres_federales,2024_2025,FALSE,TRUE,FALSE,TRUE,,mediana_ponderada_cantidad,1925,0,34,34,3,31,31,31,31,FALSE,1,TRUE,TRUE
+tres_federales,2024_2025,FALSE,TRUE,TRUE,FALSE,,mediana_ponderada_cantidad,1930,0,35,35,3,32,32,32,32,FALSE,3,TRUE,TRUE
+tres_federales,2024_2025,FALSE,TRUE,TRUE,TRUE,,mediana_ponderada_cantidad,1925,0,34,34,3,31,31,31,31,FALSE,2,TRUE,TRUE
+tres_federales,2024_2025,TRUE,FALSE,FALSE,FALSE,,mediana_ponderada_cantidad,1936,0,35,35,3,32,32,32,32,FALSE,2,TRUE,TRUE
+tres_federales,2024_2025,TRUE,FALSE,FALSE,TRUE,,mediana_ponderada_cantidad,1931,0,34,34,3,31,31,31,31,FALSE,1,TRUE,TRUE
+tres_federales,2024_2025,TRUE,FALSE,TRUE,FALSE,,mediana_ponderada_cantidad,1936,0,35,35,3,32,32,32,32,FALSE,3,TRUE,TRUE
+tres_federales,2024_2025,TRUE,FALSE,TRUE,TRUE,,mediana_ponderada_cantidad,1931,0,34,34,3,31,31,31,31,FALSE,2,TRUE,TRUE
+tres_federales,2024_2025,TRUE,TRUE,FALSE,FALSE,,mediana_ponderada_cantidad,1930,0,35,35,3,32,32,32,32,FALSE,3,TRUE,TRUE
+tres_federales,2024_2025,TRUE,TRUE,FALSE,TRUE,,mediana_ponderada_cantidad,1925,0,34,34,3,31,31,31,31,FALSE,2,TRUE,TRUE
+tres_federales,2024_2025,TRUE,TRUE,TRUE,FALSE,,mediana_ponderada_cantidad,1930,0,35,35,3,32,32,32,32,FALSE,4,TRUE,TRUE
+tres_federales,2024_2025,TRUE,TRUE,TRUE,TRUE,,mediana_ponderada_cantidad,1925,0,34,34,3,31,31,31,31,FALSE,3,TRUE,TRUE
+tres_federales,solo_2025,FALSE,FALSE,FALSE,FALSE,,mediana_ponderada_cantidad,1895,0,35,35,3,32,32,32,32,FALSE,2,TRUE,TRUE
+tres_federales,solo_2025,FALSE,FALSE,FALSE,TRUE,,mediana_ponderada_cantidad,1890,0,34,34,3,31,31,31,31,FALSE,1,TRUE,TRUE
+tres_federales,solo_2025,FALSE,FALSE,TRUE,FALSE,,mediana_ponderada_cantidad,1895,0,35,35,3,32,32,32,32,FALSE,3,TRUE,TRUE
+tres_federales,solo_2025,FALSE,FALSE,TRUE,TRUE,,mediana_ponderada_cantidad,1890,0,34,34,3,31,31,31,31,FALSE,2,TRUE,TRUE
+tres_federales,solo_2025,FALSE,TRUE,FALSE,FALSE,,mediana_ponderada_cantidad,1889,0,35,35,3,32,32,32,32,FALSE,3,TRUE,TRUE
+tres_federales,solo_2025,FALSE,TRUE,FALSE,TRUE,,mediana_ponderada_cantidad,1884,0,34,34,3,31,31,31,31,FALSE,2,TRUE,TRUE
+tres_federales,solo_2025,FALSE,TRUE,TRUE,FALSE,,mediana_ponderada_cantidad,1889,0,35,35,3,32,32,32,32,FALSE,4,TRUE,TRUE
+tres_federales,solo_2025,FALSE,TRUE,TRUE,TRUE,,mediana_ponderada_cantidad,1884,0,34,34,3,31,31,31,31,FALSE,3,TRUE,TRUE
+tres_federales,solo_2025,TRUE,FALSE,FALSE,FALSE,,mediana_ponderada_cantidad,1895,0,35,35,3,32,32,32,32,FALSE,3,TRUE,TRUE
+tres_federales,solo_2025,TRUE,FALSE,FALSE,TRUE,,mediana_ponderada_cantidad,1890,0,34,34,3,31,31,31,31,FALSE,2,TRUE,TRUE
+tres_federales,solo_2025,TRUE,FALSE,TRUE,FALSE,,mediana_ponderada_cantidad,1895,0,35,35,3,32,32,32,32,FALSE,4,TRUE,TRUE
+tres_federales,solo_2025,TRUE,FALSE,TRUE,TRUE,,mediana_ponderada_cantidad,1890,0,34,34,3,31,31,31,31,FALSE,3,TRUE,TRUE
+tres_federales,solo_2025,TRUE,TRUE,FALSE,FALSE,,mediana_ponderada_cantidad,1889,0,35,35,3,32,32,32,32,FALSE,4,TRUE,TRUE
+tres_federales,solo_2025,TRUE,TRUE,FALSE,TRUE,,mediana_ponderada_cantidad,1884,0,34,34,3,31,31,31,31,FALSE,3,TRUE,TRUE
+tres_federales,solo_2025,TRUE,TRUE,TRUE,FALSE,,mediana_ponderada_cantidad,1889,0,35,35,3,32,32,32,32,FALSE,5,TRUE,TRUE
+tres_federales,solo_2025,TRUE,TRUE,TRUE,TRUE,,mediana_ponderada_cantidad,1884,0,34,34,3,31,31,31,31,FALSE,4,TRUE,TRUE
+federal_todas,todo,FALSE,FALSE,FALSE,FALSE,,mediana_ponderada_cantidad,7743,0,42,42,9,40,39,40,39,FALSE,2,TRUE,TRUE
+federal_todas,todo,FALSE,FALSE,FALSE,TRUE,,mediana_ponderada_cantidad,6776,0,40,40,9,38,37,38,37,FALSE,1,TRUE,TRUE
+federal_todas,todo,FALSE,FALSE,TRUE,FALSE,,mediana_ponderada_cantidad,3904,0,42,42,9,40,39,40,39,FALSE,3,TRUE,TRUE
+federal_todas,todo,FALSE,FALSE,TRUE,TRUE,,mediana_ponderada_cantidad,3854,0,40,40,9,38,37,38,37,FALSE,2,TRUE,TRUE
+federal_todas,todo,FALSE,TRUE,FALSE,FALSE,,mediana_ponderada_cantidad,4000,0,42,42,9,40,39,40,39,FALSE,3,TRUE,TRUE
+federal_todas,todo,FALSE,TRUE,FALSE,TRUE,,mediana_ponderada_cantidad,3885,0,40,40,9,38,37,38,37,FALSE,2,TRUE,TRUE
+federal_todas,todo,FALSE,TRUE,TRUE,FALSE,,mediana_ponderada_cantidad,3604,0,42,42,9,40,39,40,39,FALSE,4,TRUE,TRUE
+federal_todas,todo,FALSE,TRUE,TRUE,TRUE,,mediana_ponderada_cantidad,3562,0,40,40,9,38,37,38,37,FALSE,3,TRUE,TRUE
+federal_todas,todo,TRUE,FALSE,FALSE,FALSE,,mediana_ponderada_cantidad,7743,0,42,42,9,40,39,40,39,FALSE,3,TRUE,TRUE
+federal_todas,todo,TRUE,FALSE,FALSE,TRUE,,mediana_ponderada_cantidad,6776,0,40,40,9,38,37,38,37,FALSE,2,TRUE,TRUE
+federal_todas,todo,TRUE,FALSE,TRUE,FALSE,,mediana_ponderada_cantidad,3904,0,42,42,9,40,39,40,39,FALSE,4,TRUE,TRUE
+federal_todas,todo,TRUE,FALSE,TRUE,TRUE,,mediana_ponderada_cantidad,3854,0,40,40,9,38,37,38,37,FALSE,3,TRUE,TRUE
+federal_todas,todo,TRUE,TRUE,FALSE,FALSE,,mediana_ponderada_cantidad,4000,0,42,42,9,40,39,40,39,FALSE,4,TRUE,TRUE
+federal_todas,todo,TRUE,TRUE,FALSE,TRUE,,mediana_ponderada_cantidad,3885,0,40,40,9,38,37,38,37,FALSE,3,TRUE,TRUE
+federal_todas,todo,TRUE,TRUE,TRUE,FALSE,,mediana_ponderada_cantidad,3604,0,42,42,9,40,39,40,39,FALSE,5,TRUE,TRUE
+federal_todas,todo,TRUE,TRUE,TRUE,TRUE,,mediana_ponderada_cantidad,3562,0,40,40,9,38,37,38,37,FALSE,4,TRUE,TRUE
+federal_todas,2019_2026,FALSE,FALSE,FALSE,FALSE,,mediana_ponderada_cantidad,7721,0,42,42,9,40,39,40,39,FALSE,2,TRUE,TRUE
+federal_todas,2019_2026,FALSE,FALSE,FALSE,TRUE,,mediana_ponderada_cantidad,6754,0,40,40,9,38,37,38,37,FALSE,1,TRUE,TRUE
+federal_todas,2019_2026,FALSE,FALSE,TRUE,FALSE,,mediana_ponderada_cantidad,3882,0,42,42,9,40,39,40,39,FALSE,3,TRUE,TRUE
+federal_todas,2019_2026,FALSE,FALSE,TRUE,TRUE,,mediana_ponderada_cantidad,3832,0,40,40,9,38,37,38,37,FALSE,2,TRUE,TRUE
+federal_todas,2019_2026,FALSE,TRUE,FALSE,FALSE,,mediana_ponderada_cantidad,3978,0,42,42,9,40,39,40,39,FALSE,3,TRUE,TRUE
+federal_todas,2019_2026,FALSE,TRUE,FALSE,TRUE,,mediana_ponderada_cantidad,3863,0,40,40,9,38,37,38,37,FALSE,2,TRUE,TRUE
+federal_todas,2019_2026,FALSE,TRUE,TRUE,FALSE,,mediana_ponderada_cantidad,3582,0,42,42,9,40,39,40,39,FALSE,4,TRUE,TRUE
+federal_todas,2019_2026,FALSE,TRUE,TRUE,TRUE,,mediana_ponderada_cantidad,3540,0,40,40,9,38,37,38,37,FALSE,3,TRUE,TRUE
+federal_todas,2019_2026,TRUE,FALSE,FALSE,FALSE,,mediana_ponderada_cantidad,7721,0,42,42,9,40,39,40,39,FALSE,3,TRUE,TRUE
+federal_todas,2019_2026,TRUE,FALSE,FALSE,TRUE,,mediana_ponderada_cantidad,6754,0,40,40,9,38,37,38,37,FALSE,2,TRUE,TRUE
+federal_todas,2019_2026,TRUE,FALSE,TRUE,FALSE,,mediana_ponderada_cantidad,3882,0,42,42,9,40,39,40,39,FALSE,4,TRUE,TRUE
+federal_todas,2019_2026,TRUE,FALSE,TRUE,TRUE,,mediana_ponderada_cantidad,3832,0,40,40,9,38,37,38,37,FALSE,3,TRUE,TRUE
+federal_todas,2019_2026,TRUE,TRUE,FALSE,FALSE,,mediana_ponderada_cantidad,3978,0,42,42,9,40,39,40,39,FALSE,4,TRUE,TRUE
+federal_todas,2019_2026,TRUE,TRUE,FALSE,TRUE,,mediana_ponderada_cantidad,3863,0,40,40,9,38,37,38,37,FALSE,3,TRUE,TRUE
+federal_todas,2019_2026,TRUE,TRUE,TRUE,FALSE,,mediana_ponderada_cantidad,3582,0,42,42,9,40,39,40,39,FALSE,5,TRUE,TRUE
+federal_todas,2019_2026,TRUE,TRUE,TRUE,TRUE,,mediana_ponderada_cantidad,3540,0,40,40,9,38,37,38,37,FALSE,4,TRUE,TRUE
+federal_todas,2024_2027,FALSE,FALSE,FALSE,FALSE,,mediana_ponderada_cantidad,5068,0,41,41,7,38,37,38,37,FALSE,2,TRUE,TRUE
+federal_todas,2024_2027,FALSE,FALSE,FALSE,TRUE,,mediana_ponderada_cantidad,4601,0,39,39,7,36,35,36,35,FALSE,1,TRUE,TRUE
+federal_todas,2024_2027,FALSE,FALSE,TRUE,FALSE,,mediana_ponderada_cantidad,2935,0,40,40,7,37,36,37,36,FALSE,3,TRUE,TRUE
+federal_todas,2024_2027,FALSE,FALSE,TRUE,TRUE,,mediana_ponderada_cantidad,2919,0,38,38,7,36,35,36,35,FALSE,2,TRUE,TRUE
+federal_todas,2024_2027,FALSE,TRUE,FALSE,FALSE,,mediana_ponderada_cantidad,3031,0,41,41,7,38,37,38,37,FALSE,3,TRUE,TRUE
+federal_todas,2024_2027,FALSE,TRUE,FALSE,TRUE,,mediana_ponderada_cantidad,2999,0,39,39,7,36,35,36,35,FALSE,2,TRUE,TRUE
+federal_todas,2024_2027,FALSE,TRUE,TRUE,FALSE,,mediana_ponderada_cantidad,2850,0,40,40,7,37,36,37,36,FALSE,4,TRUE,TRUE
+federal_todas,2024_2027,FALSE,TRUE,TRUE,TRUE,,mediana_ponderada_cantidad,2836,0,38,38,7,36,35,36,35,FALSE,3,TRUE,TRUE
+federal_todas,2024_2027,TRUE,FALSE,FALSE,FALSE,,mediana_ponderada_cantidad,5068,0,41,41,7,38,37,38,37,FALSE,3,TRUE,TRUE
+federal_todas,2024_2027,TRUE,FALSE,FALSE,TRUE,,mediana_ponderada_cantidad,4601,0,39,39,7,36,35,36,35,FALSE,2,TRUE,TRUE
+federal_todas,2024_2027,TRUE,FALSE,TRUE,FALSE,,mediana_ponderada_cantidad,2935,0,40,40,7,37,36,37,36,FALSE,4,TRUE,TRUE
+federal_todas,2024_2027,TRUE,FALSE,TRUE,TRUE,,mediana_ponderada_cantidad,2919,0,38,38,7,36,35,36,35,FALSE,3,TRUE,TRUE
+federal_todas,2024_2027,TRUE,TRUE,FALSE,FALSE,,mediana_ponderada_cantidad,3031,0,41,41,7,38,37,38,37,FALSE,4,TRUE,TRUE
+federal_todas,2024_2027,TRUE,TRUE,FALSE,TRUE,,mediana_ponderada_cantidad,2999,0,39,39,7,36,35,36,35,FALSE,3,TRUE,TRUE
+federal_todas,2024_2027,TRUE,TRUE,TRUE,FALSE,,mediana_ponderada_cantidad,2850,0,40,40,7,37,36,37,36,FALSE,5,TRUE,TRUE
+federal_todas,2024_2027,TRUE,TRUE,TRUE,TRUE,,mediana_ponderada_cantidad,2836,0,38,38,7,36,35,36,35,FALSE,4,TRUE,TRUE
+federal_todas,2024_2025,FALSE,FALSE,FALSE,FALSE,,mediana_ponderada_cantidad,4592,0,41,41,7,37,37,37,37,FALSE,1,TRUE,TRUE
+federal_todas,2024_2025,FALSE,FALSE,FALSE,TRUE,,mediana_ponderada_cantidad,4125,0,39,39,7,35,35,35,35,FALSE,0,TRUE,TRUE
+federal_todas,2024_2025,FALSE,FALSE,TRUE,FALSE,,mediana_ponderada_cantidad,2880,0,40,40,7,36,36,36,36,FALSE,2,TRUE,TRUE
+federal_todas,2024_2025,FALSE,FALSE,TRUE,TRUE,,mediana_ponderada_cantidad,2864,0,38,38,7,35,35,35,35,FALSE,1,TRUE,TRUE
+federal_todas,2024_2025,FALSE,TRUE,FALSE,FALSE,,mediana_ponderada_cantidad,2928,0,41,41,7,37,37,37,37,FALSE,2,TRUE,TRUE
+federal_todas,2024_2025,FALSE,TRUE,FALSE,TRUE,,mediana_ponderada_cantidad,2896,0,39,39,7,35,35,35,35,FALSE,1,TRUE,TRUE
+federal_todas,2024_2025,FALSE,TRUE,TRUE,FALSE,,mediana_ponderada_cantidad,2795,0,40,40,7,36,36,36,36,FALSE,3,TRUE,TRUE
+federal_todas,2024_2025,FALSE,TRUE,TRUE,TRUE,,mediana_ponderada_cantidad,2781,0,38,38,7,35,35,35,35,FALSE,2,TRUE,TRUE
+federal_todas,2024_2025,TRUE,FALSE,FALSE,FALSE,,mediana_ponderada_cantidad,4592,0,41,41,7,37,37,37,37,FALSE,2,TRUE,TRUE
+federal_todas,2024_2025,TRUE,FALSE,FALSE,TRUE,,mediana_ponderada_cantidad,4125,0,39,39,7,35,35,35,35,FALSE,1,TRUE,TRUE
+federal_todas,2024_2025,TRUE,FALSE,TRUE,FALSE,,mediana_ponderada_cantidad,2880,0,40,40,7,36,36,36,36,FALSE,3,TRUE,TRUE
+federal_todas,2024_2025,TRUE,FALSE,TRUE,TRUE,,mediana_ponderada_cantidad,2864,0,38,38,7,35,35,35,35,FALSE,2,TRUE,TRUE
+federal_todas,2024_2025,TRUE,TRUE,FALSE,FALSE,,mediana_ponderada_cantidad,2928,0,41,41,7,37,37,37,37,FALSE,3,TRUE,TRUE
+federal_todas,2024_2025,TRUE,TRUE,FALSE,TRUE,,mediana_ponderada_cantidad,2896,0,39,39,7,35,35,35,35,FALSE,2,TRUE,TRUE
+federal_todas,2024_2025,TRUE,TRUE,TRUE,FALSE,,mediana_ponderada_cantidad,2795,0,40,40,7,36,36,36,36,FALSE,4,TRUE,TRUE
+federal_todas,2024_2025,TRUE,TRUE,TRUE,TRUE,,mediana_ponderada_cantidad,2781,0,38,38,7,35,35,35,35,FALSE,3,TRUE,TRUE
+federal_todas,solo_2025,FALSE,FALSE,FALSE,FALSE,,mediana_ponderada_cantidad,3360,0,41,41,7,36,36,36,36,FALSE,2,TRUE,TRUE
+federal_todas,solo_2025,FALSE,FALSE,FALSE,TRUE,,mediana_ponderada_cantidad,3344,0,39,39,7,35,35,35,35,FALSE,1,TRUE,TRUE
+federal_todas,solo_2025,FALSE,FALSE,TRUE,FALSE,,mediana_ponderada_cantidad,2608,0,39,39,7,36,36,36,36,FALSE,3,TRUE,TRUE
+federal_todas,solo_2025,FALSE,FALSE,TRUE,TRUE,,mediana_ponderada_cantidad,2594,0,38,38,7,35,35,35,35,FALSE,2,TRUE,TRUE
+federal_todas,solo_2025,FALSE,TRUE,FALSE,FALSE,,mediana_ponderada_cantidad,2617,0,41,41,7,36,36,36,36,FALSE,3,TRUE,TRUE
+federal_todas,solo_2025,FALSE,TRUE,FALSE,TRUE,,mediana_ponderada_cantidad,2604,0,39,39,7,35,35,35,35,FALSE,2,TRUE,TRUE
+federal_todas,solo_2025,FALSE,TRUE,TRUE,FALSE,,mediana_ponderada_cantidad,2555,0,39,39,7,36,36,36,36,FALSE,4,TRUE,TRUE
+federal_todas,solo_2025,FALSE,TRUE,TRUE,TRUE,,mediana_ponderada_cantidad,2543,0,38,38,7,35,35,35,35,FALSE,3,TRUE,TRUE
+federal_todas,solo_2025,TRUE,FALSE,FALSE,FALSE,,mediana_ponderada_cantidad,3360,0,41,41,7,36,36,36,36,FALSE,3,TRUE,TRUE
+federal_todas,solo_2025,TRUE,FALSE,FALSE,TRUE,,mediana_ponderada_cantidad,3344,0,39,39,7,35,35,35,35,FALSE,2,TRUE,TRUE
+federal_todas,solo_2025,TRUE,FALSE,TRUE,FALSE,,mediana_ponderada_cantidad,2608,0,39,39,7,36,36,36,36,FALSE,4,TRUE,TRUE
+federal_todas,solo_2025,TRUE,FALSE,TRUE,TRUE,,mediana_ponderada_cantidad,2594,0,38,38,7,35,35,35,35,FALSE,3,TRUE,TRUE
+federal_todas,solo_2025,TRUE,TRUE,FALSE,FALSE,,mediana_ponderada_cantidad,2617,0,41,41,7,36,36,36,36,FALSE,4,TRUE,TRUE
+federal_todas,solo_2025,TRUE,TRUE,FALSE,TRUE,,mediana_ponderada_cantidad,2604,0,39,39,7,35,35,35,35,FALSE,3,TRUE,TRUE
+federal_todas,solo_2025,TRUE,TRUE,TRUE,FALSE,,mediana_ponderada_cantidad,2555,0,39,39,7,36,36,36,36,FALSE,5,TRUE,TRUE
+federal_todas,solo_2025,TRUE,TRUE,TRUE,TRUE,,mediana_ponderada_cantidad,2543,0,38,38,7,35,35,35,35,FALSE,4,TRUE,TRUE
+entidades,todo,FALSE,FALSE,FALSE,FALSE,,mediana_ponderada_cantidad,993,0,40,40,11,35,34,35,34,FALSE,2,TRUE,TRUE
+entidades,todo,FALSE,FALSE,FALSE,TRUE,,mediana_ponderada_cantidad,958,0,39,39,11,33,32,33,32,FALSE,1,TRUE,TRUE
+entidades,todo,FALSE,FALSE,TRUE,FALSE,,mediana_ponderada_cantidad,993,0,40,40,11,35,34,35,34,FALSE,3,TRUE,TRUE
+entidades,todo,FALSE,FALSE,TRUE,TRUE,,mediana_ponderada_cantidad,958,0,39,39,11,33,32,33,32,FALSE,2,TRUE,TRUE
+entidades,todo,FALSE,TRUE,FALSE,FALSE,,mediana_ponderada_cantidad,968,0,40,40,11,35,34,35,34,FALSE,3,TRUE,TRUE
+entidades,todo,FALSE,TRUE,FALSE,TRUE,,mediana_ponderada_cantidad,936,0,39,39,11,33,32,33,32,FALSE,2,TRUE,TRUE
+entidades,todo,FALSE,TRUE,TRUE,FALSE,,mediana_ponderada_cantidad,968,0,40,40,11,35,34,35,34,FALSE,4,TRUE,TRUE
+entidades,todo,FALSE,TRUE,TRUE,TRUE,,mediana_ponderada_cantidad,936,0,39,39,11,33,32,33,32,FALSE,3,TRUE,TRUE
+entidades,todo,TRUE,FALSE,FALSE,FALSE,,mediana_ponderada_cantidad,993,0,40,40,11,35,34,35,34,FALSE,3,TRUE,TRUE
+entidades,todo,TRUE,FALSE,FALSE,TRUE,,mediana_ponderada_cantidad,958,0,39,39,11,33,32,33,32,FALSE,2,TRUE,TRUE
+entidades,todo,TRUE,FALSE,TRUE,FALSE,,mediana_ponderada_cantidad,993,0,40,40,11,35,34,35,34,FALSE,4,TRUE,TRUE
+entidades,todo,TRUE,FALSE,TRUE,TRUE,,mediana_ponderada_cantidad,958,0,39,39,11,33,32,33,32,FALSE,3,TRUE,TRUE
+entidades,todo,TRUE,TRUE,FALSE,FALSE,,mediana_ponderada_cantidad,968,0,40,40,11,35,34,35,34,FALSE,4,TRUE,TRUE
+entidades,todo,TRUE,TRUE,FALSE,TRUE,,mediana_ponderada_cantidad,936,0,39,39,11,33,32,33,32,FALSE,3,TRUE,TRUE
+entidades,todo,TRUE,TRUE,TRUE,FALSE,,mediana_ponderada_cantidad,968,0,40,40,11,35,34,35,34,FALSE,5,TRUE,TRUE
+entidades,todo,TRUE,TRUE,TRUE,TRUE,,mediana_ponderada_cantidad,936,0,39,39,11,33,32,33,32,FALSE,4,TRUE,TRUE
+entidades,2019_2026,FALSE,FALSE,FALSE,FALSE,,mediana_ponderada_cantidad,993,0,40,40,11,35,34,35,34,FALSE,2,TRUE,TRUE
+entidades,2019_2026,FALSE,FALSE,FALSE,TRUE,,mediana_ponderada_cantidad,958,0,39,39,11,33,32,33,32,FALSE,1,TRUE,TRUE
+entidades,2019_2026,FALSE,FALSE,TRUE,FALSE,,mediana_ponderada_cantidad,993,0,40,40,11,35,34,35,34,FALSE,3,TRUE,TRUE
+entidades,2019_2026,FALSE,FALSE,TRUE,TRUE,,mediana_ponderada_cantidad,958,0,39,39,11,33,32,33,32,FALSE,2,TRUE,TRUE
+entidades,2019_2026,FALSE,TRUE,FALSE,FALSE,,mediana_ponderada_cantidad,968,0,40,40,11,35,34,35,34,FALSE,3,TRUE,TRUE
+entidades,2019_2026,FALSE,TRUE,FALSE,TRUE,,mediana_ponderada_cantidad,936,0,39,39,11,33,32,33,32,FALSE,2,TRUE,TRUE
+entidades,2019_2026,FALSE,TRUE,TRUE,FALSE,,mediana_ponderada_cantidad,968,0,40,40,11,35,34,35,34,FALSE,4,TRUE,TRUE
+entidades,2019_2026,FALSE,TRUE,TRUE,TRUE,,mediana_ponderada_cantidad,936,0,39,39,11,33,32,33,32,FALSE,3,TRUE,TRUE
+entidades,2019_2026,TRUE,FALSE,FALSE,FALSE,,mediana_ponderada_cantidad,993,0,40,40,11,35,34,35,34,FALSE,3,TRUE,TRUE
+entidades,2019_2026,TRUE,FALSE,FALSE,TRUE,,mediana_ponderada_cantidad,958,0,39,39,11,33,32,33,32,FALSE,2,TRUE,TRUE
+entidades,2019_2026,TRUE,FALSE,TRUE,FALSE,,mediana_ponderada_cantidad,993,0,40,40,11,35,34,35,34,FALSE,4,TRUE,TRUE
+entidades,2019_2026,TRUE,FALSE,TRUE,TRUE,,mediana_ponderada_cantidad,958,0,39,39,11,33,32,33,32,FALSE,3,TRUE,TRUE
+entidades,2019_2026,TRUE,TRUE,FALSE,FALSE,,mediana_ponderada_cantidad,968,0,40,40,11,35,34,35,34,FALSE,4,TRUE,TRUE
+entidades,2019_2026,TRUE,TRUE,FALSE,TRUE,,mediana_ponderada_cantidad,936,0,39,39,11,33,32,33,32,FALSE,3,TRUE,TRUE
+entidades,2019_2026,TRUE,TRUE,TRUE,FALSE,,mediana_ponderada_cantidad,968,0,40,40,11,35,34,35,34,FALSE,5,TRUE,TRUE
+entidades,2019_2026,TRUE,TRUE,TRUE,TRUE,,mediana_ponderada_cantidad,936,0,39,39,11,33,32,33,32,FALSE,4,TRUE,TRUE
+entidades,2024_2027,FALSE,FALSE,FALSE,FALSE,,mediana_ponderada_cantidad,467,0,39,39,11,32,32,32,32,FALSE,2,TRUE,TRUE
+entidades,2024_2027,FALSE,FALSE,FALSE,TRUE,,mediana_ponderada_cantidad,452,0,37,37,11,30,30,30,30,FALSE,1,TRUE,TRUE
+entidades,2024_2027,FALSE,FALSE,TRUE,FALSE,,mediana_ponderada_cantidad,467,0,39,39,11,32,32,32,32,FALSE,3,TRUE,TRUE
+entidades,2024_2027,FALSE,FALSE,TRUE,TRUE,,mediana_ponderada_cantidad,452,0,37,37,11,30,30,30,30,FALSE,2,TRUE,TRUE
+entidades,2024_2027,FALSE,TRUE,FALSE,FALSE,,mediana_ponderada_cantidad,461,0,39,39,11,32,32,32,32,FALSE,3,TRUE,TRUE
+entidades,2024_2027,FALSE,TRUE,FALSE,TRUE,,mediana_ponderada_cantidad,446,0,37,37,11,30,30,30,30,FALSE,2,TRUE,TRUE
+entidades,2024_2027,FALSE,TRUE,TRUE,FALSE,,mediana_ponderada_cantidad,461,0,39,39,11,32,32,32,32,FALSE,4,TRUE,TRUE
+entidades,2024_2027,FALSE,TRUE,TRUE,TRUE,,mediana_ponderada_cantidad,446,0,37,37,11,30,30,30,30,FALSE,3,TRUE,TRUE
+entidades,2024_2027,TRUE,FALSE,FALSE,FALSE,,mediana_ponderada_cantidad,467,0,39,39,11,32,32,32,32,FALSE,3,TRUE,TRUE
+entidades,2024_2027,TRUE,FALSE,FALSE,TRUE,,mediana_ponderada_cantidad,452,0,37,37,11,30,30,30,30,FALSE,2,TRUE,TRUE
+entidades,2024_2027,TRUE,FALSE,TRUE,FALSE,,mediana_ponderada_cantidad,467,0,39,39,11,32,32,32,32,FALSE,4,TRUE,TRUE
+entidades,2024_2027,TRUE,FALSE,TRUE,TRUE,,mediana_ponderada_cantidad,452,0,37,37,11,30,30,30,30,FALSE,3,TRUE,TRUE
+entidades,2024_2027,TRUE,TRUE,FALSE,FALSE,,mediana_ponderada_cantidad,461,0,39,39,11,32,32,32,32,FALSE,4,TRUE,TRUE
+entidades,2024_2027,TRUE,TRUE,FALSE,TRUE,,mediana_ponderada_cantidad,446,0,37,37,11,30,30,30,30,FALSE,3,TRUE,TRUE
+entidades,2024_2027,TRUE,TRUE,TRUE,FALSE,,mediana_ponderada_cantidad,461,0,39,39,11,32,32,32,32,FALSE,5,TRUE,TRUE
+entidades,2024_2027,TRUE,TRUE,TRUE,TRUE,,mediana_ponderada_cantidad,446,0,37,37,11,30,30,30,30,FALSE,4,TRUE,TRUE
+entidades,2024_2025,FALSE,FALSE,FALSE,FALSE,,mediana_ponderada_cantidad,396,0,38,38,10,32,32,32,32,FALSE,1,TRUE,TRUE
+entidades,2024_2025,FALSE,FALSE,FALSE,TRUE,,mediana_ponderada_cantidad,383,0,36,36,10,30,30,30,30,FALSE,0,TRUE,TRUE
+entidades,2024_2025,FALSE,FALSE,TRUE,FALSE,,mediana_ponderada_cantidad,396,0,38,38,10,32,32,32,32,FALSE,2,TRUE,TRUE
+entidades,2024_2025,FALSE,FALSE,TRUE,TRUE,,mediana_ponderada_cantidad,383,0,36,36,10,30,30,30,30,FALSE,1,TRUE,TRUE
+entidades,2024_2025,FALSE,TRUE,FALSE,FALSE,,mediana_ponderada_cantidad,390,0,38,38,10,32,32,32,32,FALSE,2,TRUE,TRUE
+entidades,2024_2025,FALSE,TRUE,FALSE,TRUE,,mediana_ponderada_cantidad,377,0,36,36,10,30,30,30,30,FALSE,1,TRUE,TRUE
+entidades,2024_2025,FALSE,TRUE,TRUE,FALSE,,mediana_ponderada_cantidad,390,0,38,38,10,32,32,32,32,FALSE,3,TRUE,TRUE
+entidades,2024_2025,FALSE,TRUE,TRUE,TRUE,,mediana_ponderada_cantidad,377,0,36,36,10,30,30,30,30,FALSE,2,TRUE,TRUE
+entidades,2024_2025,TRUE,FALSE,FALSE,FALSE,,mediana_ponderada_cantidad,396,0,38,38,10,32,32,32,32,FALSE,2,TRUE,TRUE
+entidades,2024_2025,TRUE,FALSE,FALSE,TRUE,,mediana_ponderada_cantidad,383,0,36,36,10,30,30,30,30,FALSE,1,TRUE,TRUE
+entidades,2024_2025,TRUE,FALSE,TRUE,FALSE,,mediana_ponderada_cantidad,396,0,38,38,10,32,32,32,32,FALSE,3,TRUE,TRUE
+entidades,2024_2025,TRUE,FALSE,TRUE,TRUE,,mediana_ponderada_cantidad,383,0,36,36,10,30,30,30,30,FALSE,2,TRUE,TRUE
+entidades,2024_2025,TRUE,TRUE,FALSE,FALSE,,mediana_ponderada_cantidad,390,0,38,38,10,32,32,32,32,FALSE,3,TRUE,TRUE
+entidades,2024_2025,TRUE,TRUE,FALSE,TRUE,,mediana_ponderada_cantidad,377,0,36,36,10,30,30,30,30,FALSE,2,TRUE,TRUE
+entidades,2024_2025,TRUE,TRUE,TRUE,FALSE,,mediana_ponderada_cantidad,390,0,38,38,10,32,32,32,32,FALSE,4,TRUE,TRUE
+entidades,2024_2025,TRUE,TRUE,TRUE,TRUE,,mediana_ponderada_cantidad,377,0,36,36,10,30,30,30,30,FALSE,3,TRUE,TRUE
+entidades,solo_2025,FALSE,FALSE,FALSE,FALSE,,mediana_ponderada_cantidad,158,0,35,35,8,30,30,30,30,FALSE,2,TRUE,TRUE
+entidades,solo_2025,FALSE,FALSE,FALSE,TRUE,,mediana_ponderada_cantidad,152,0,33,33,8,28,28,28,28,FALSE,1,FALSE,FALSE
+entidades,solo_2025,FALSE,FALSE,TRUE,FALSE,,mediana_ponderada_cantidad,158,0,35,35,8,30,30,30,30,FALSE,3,TRUE,TRUE
+entidades,solo_2025,FALSE,FALSE,TRUE,TRUE,,mediana_ponderada_cantidad,152,0,33,33,8,28,28,28,28,FALSE,2,FALSE,FALSE
+entidades,solo_2025,FALSE,TRUE,FALSE,FALSE,,mediana_ponderada_cantidad,158,0,35,35,8,30,30,30,30,FALSE,3,TRUE,TRUE
+entidades,solo_2025,FALSE,TRUE,FALSE,TRUE,,mediana_ponderada_cantidad,152,0,33,33,8,28,28,28,28,FALSE,2,FALSE,FALSE
+entidades,solo_2025,FALSE,TRUE,TRUE,FALSE,,mediana_ponderada_cantidad,158,0,35,35,8,30,30,30,30,FALSE,4,TRUE,TRUE
+entidades,solo_2025,FALSE,TRUE,TRUE,TRUE,,mediana_ponderada_cantidad,152,0,33,33,8,28,28,28,28,FALSE,3,FALSE,FALSE
+entidades,solo_2025,TRUE,FALSE,FALSE,FALSE,,mediana_ponderada_cantidad,158,0,35,35,8,30,30,30,30,FALSE,3,TRUE,TRUE
+entidades,solo_2025,TRUE,FALSE,FALSE,TRUE,,mediana_ponderada_cantidad,152,0,33,33,8,28,28,28,28,FALSE,2,FALSE,FALSE
+entidades,solo_2025,TRUE,FALSE,TRUE,FALSE,,mediana_ponderada_cantidad,158,0,35,35,8,30,30,30,30,FALSE,4,TRUE,TRUE
+entidades,solo_2025,TRUE,FALSE,TRUE,TRUE,,mediana_ponderada_cantidad,152,0,33,33,8,28,28,28,28,FALSE,3,FALSE,FALSE
+entidades,solo_2025,TRUE,TRUE,FALSE,FALSE,,mediana_ponderada_cantidad,158,0,35,35,8,30,30,30,30,FALSE,4,TRUE,TRUE
+entidades,solo_2025,TRUE,TRUE,FALSE,TRUE,,mediana_ponderada_cantidad,152,0,33,33,8,28,28,28,28,FALSE,3,FALSE,FALSE
+entidades,solo_2025,TRUE,TRUE,TRUE,FALSE,,mediana_ponderada_cantidad,158,0,35,35,8,30,30,30,30,FALSE,5,TRUE,TRUE
+entidades,solo_2025,TRUE,TRUE,TRUE,TRUE,,mediana_ponderada_cantidad,152,0,33,33,8,28,28,28,28,FALSE,4,FALSE,FALSE
+federal_vs_estatal,todo,FALSE,FALSE,FALSE,FALSE,Federal (agrupado),mediana_ponderada_cantidad,8736,0,42,42,12,40,40,40,40,FALSE,2,TRUE,TRUE
+federal_vs_estatal,todo,FALSE,FALSE,FALSE,TRUE,Federal (agrupado),mediana_ponderada_cantidad,7734,0,41,41,12,38,38,38,38,FALSE,1,TRUE,TRUE
+federal_vs_estatal,todo,FALSE,FALSE,TRUE,FALSE,Federal (agrupado),mediana_ponderada_cantidad,4897,0,42,42,12,40,38,40,38,FALSE,3,TRUE,TRUE
+federal_vs_estatal,todo,FALSE,FALSE,TRUE,TRUE,Federal (agrupado),mediana_ponderada_cantidad,4812,0,41,41,12,38,36,38,36,FALSE,2,TRUE,TRUE
+federal_vs_estatal,todo,FALSE,TRUE,FALSE,FALSE,Federal (agrupado),mediana_ponderada_cantidad,4968,0,42,42,12,40,40,40,40,FALSE,3,TRUE,TRUE
+federal_vs_estatal,todo,FALSE,TRUE,FALSE,TRUE,Federal (agrupado),mediana_ponderada_cantidad,4821,0,41,41,12,38,38,38,38,FALSE,2,TRUE,TRUE
+federal_vs_estatal,todo,FALSE,TRUE,TRUE,FALSE,Federal (agrupado),mediana_ponderada_cantidad,4572,0,42,42,12,40,38,40,38,FALSE,4,TRUE,TRUE
+federal_vs_estatal,todo,FALSE,TRUE,TRUE,TRUE,Federal (agrupado),mediana_ponderada_cantidad,4498,0,41,41,12,38,36,38,36,FALSE,3,TRUE,TRUE
+federal_vs_estatal,todo,TRUE,FALSE,FALSE,FALSE,Federal (agrupado),mediana_ponderada_cantidad,8736,0,42,42,12,40,40,40,40,FALSE,3,TRUE,TRUE
+federal_vs_estatal,todo,TRUE,FALSE,FALSE,TRUE,Federal (agrupado),mediana_ponderada_cantidad,7734,0,41,41,12,38,38,38,38,FALSE,2,TRUE,TRUE
+federal_vs_estatal,todo,TRUE,FALSE,TRUE,FALSE,Federal (agrupado),mediana_ponderada_cantidad,4897,0,42,42,12,40,38,40,38,FALSE,4,TRUE,TRUE
+federal_vs_estatal,todo,TRUE,FALSE,TRUE,TRUE,Federal (agrupado),mediana_ponderada_cantidad,4812,0,41,41,12,38,36,38,36,FALSE,3,TRUE,TRUE
+federal_vs_estatal,todo,TRUE,TRUE,FALSE,FALSE,Federal (agrupado),mediana_ponderada_cantidad,4968,0,42,42,12,40,40,40,40,FALSE,4,TRUE,TRUE
+federal_vs_estatal,todo,TRUE,TRUE,FALSE,TRUE,Federal (agrupado),mediana_ponderada_cantidad,4821,0,41,41,12,38,38,38,38,FALSE,3,TRUE,TRUE
+federal_vs_estatal,todo,TRUE,TRUE,TRUE,FALSE,Federal (agrupado),mediana_ponderada_cantidad,4572,0,42,42,12,40,38,40,38,FALSE,5,TRUE,TRUE
+federal_vs_estatal,todo,TRUE,TRUE,TRUE,TRUE,Federal (agrupado),mediana_ponderada_cantidad,4498,0,41,41,12,38,36,38,36,FALSE,4,TRUE,TRUE
+federal_vs_estatal,2019_2026,FALSE,FALSE,FALSE,FALSE,Federal (agrupado),mediana_ponderada_cantidad,8714,0,42,42,12,40,40,40,40,FALSE,2,TRUE,TRUE
+federal_vs_estatal,2019_2026,FALSE,FALSE,FALSE,TRUE,Federal (agrupado),mediana_ponderada_cantidad,7712,0,41,41,12,38,38,38,38,FALSE,1,TRUE,TRUE
+federal_vs_estatal,2019_2026,FALSE,FALSE,TRUE,FALSE,Federal (agrupado),mediana_ponderada_cantidad,4875,0,42,42,12,40,38,40,38,FALSE,3,TRUE,TRUE
+federal_vs_estatal,2019_2026,FALSE,FALSE,TRUE,TRUE,Federal (agrupado),mediana_ponderada_cantidad,4790,0,41,41,12,38,36,38,36,FALSE,2,TRUE,TRUE
+federal_vs_estatal,2019_2026,FALSE,TRUE,FALSE,FALSE,Federal (agrupado),mediana_ponderada_cantidad,4946,0,42,42,12,40,40,40,40,FALSE,3,TRUE,TRUE
+federal_vs_estatal,2019_2026,FALSE,TRUE,FALSE,TRUE,Federal (agrupado),mediana_ponderada_cantidad,4799,0,41,41,12,38,38,38,38,FALSE,2,TRUE,TRUE
+federal_vs_estatal,2019_2026,FALSE,TRUE,TRUE,FALSE,Federal (agrupado),mediana_ponderada_cantidad,4550,0,42,42,12,40,38,40,38,FALSE,4,TRUE,TRUE
+federal_vs_estatal,2019_2026,FALSE,TRUE,TRUE,TRUE,Federal (agrupado),mediana_ponderada_cantidad,4476,0,41,41,12,38,36,38,36,FALSE,3,TRUE,TRUE
+federal_vs_estatal,2019_2026,TRUE,FALSE,FALSE,FALSE,Federal (agrupado),mediana_ponderada_cantidad,8714,0,42,42,12,40,40,40,40,FALSE,3,TRUE,TRUE
+federal_vs_estatal,2019_2026,TRUE,FALSE,FALSE,TRUE,Federal (agrupado),mediana_ponderada_cantidad,7712,0,41,41,12,38,38,38,38,FALSE,2,TRUE,TRUE
+federal_vs_estatal,2019_2026,TRUE,FALSE,TRUE,FALSE,Federal (agrupado),mediana_ponderada_cantidad,4875,0,42,42,12,40,38,40,38,FALSE,4,TRUE,TRUE
+federal_vs_estatal,2019_2026,TRUE,FALSE,TRUE,TRUE,Federal (agrupado),mediana_ponderada_cantidad,4790,0,41,41,12,38,36,38,36,FALSE,3,TRUE,TRUE
+federal_vs_estatal,2019_2026,TRUE,TRUE,FALSE,FALSE,Federal (agrupado),mediana_ponderada_cantidad,4946,0,42,42,12,40,40,40,40,FALSE,4,TRUE,TRUE
+federal_vs_estatal,2019_2026,TRUE,TRUE,FALSE,TRUE,Federal (agrupado),mediana_ponderada_cantidad,4799,0,41,41,12,38,38,38,38,FALSE,3,TRUE,TRUE
+federal_vs_estatal,2019_2026,TRUE,TRUE,TRUE,FALSE,Federal (agrupado),mediana_ponderada_cantidad,4550,0,42,42,12,40,38,40,38,FALSE,5,TRUE,TRUE
+federal_vs_estatal,2019_2026,TRUE,TRUE,TRUE,TRUE,Federal (agrupado),mediana_ponderada_cantidad,4476,0,41,41,12,38,36,38,36,FALSE,4,TRUE,TRUE
+federal_vs_estatal,2024_2027,FALSE,FALSE,FALSE,FALSE,Federal (agrupado),mediana_ponderada_cantidad,5535,0,42,42,12,38,38,38,38,FALSE,2,TRUE,TRUE
+federal_vs_estatal,2024_2027,FALSE,FALSE,FALSE,TRUE,Federal (agrupado),mediana_ponderada_cantidad,5053,0,40,40,12,36,36,36,36,FALSE,1,TRUE,TRUE
+federal_vs_estatal,2024_2027,FALSE,FALSE,TRUE,FALSE,Federal (agrupado),mediana_ponderada_cantidad,3402,0,42,42,12,37,36,37,36,FALSE,3,TRUE,TRUE
+federal_vs_estatal,2024_2027,FALSE,FALSE,TRUE,TRUE,Federal (agrupado),mediana_ponderada_cantidad,3371,0,40,40,12,35,34,35,34,FALSE,2,TRUE,TRUE
+federal_vs_estatal,2024_2027,FALSE,TRUE,FALSE,FALSE,Federal (agrupado),mediana_ponderada_cantidad,3492,0,42,42,12,38,38,38,38,FALSE,3,TRUE,TRUE
+federal_vs_estatal,2024_2027,FALSE,TRUE,FALSE,TRUE,Federal (agrupado),mediana_ponderada_cantidad,3445,0,40,40,12,36,36,36,36,FALSE,2,TRUE,TRUE
+federal_vs_estatal,2024_2027,FALSE,TRUE,TRUE,FALSE,Federal (agrupado),mediana_ponderada_cantidad,3311,0,42,42,12,37,36,37,36,FALSE,4,TRUE,TRUE
+federal_vs_estatal,2024_2027,FALSE,TRUE,TRUE,TRUE,Federal (agrupado),mediana_ponderada_cantidad,3282,0,40,40,12,35,34,35,34,FALSE,3,TRUE,TRUE
+federal_vs_estatal,2024_2027,TRUE,FALSE,FALSE,FALSE,Federal (agrupado),mediana_ponderada_cantidad,5535,0,42,42,12,38,38,38,38,FALSE,3,TRUE,TRUE
+federal_vs_estatal,2024_2027,TRUE,FALSE,FALSE,TRUE,Federal (agrupado),mediana_ponderada_cantidad,5053,0,40,40,12,36,36,36,36,FALSE,2,TRUE,TRUE
+federal_vs_estatal,2024_2027,TRUE,FALSE,TRUE,FALSE,Federal (agrupado),mediana_ponderada_cantidad,3402,0,42,42,12,37,36,37,36,FALSE,4,TRUE,TRUE
+federal_vs_estatal,2024_2027,TRUE,FALSE,TRUE,TRUE,Federal (agrupado),mediana_ponderada_cantidad,3371,0,40,40,12,35,34,35,34,FALSE,3,TRUE,TRUE
+federal_vs_estatal,2024_2027,TRUE,TRUE,FALSE,FALSE,Federal (agrupado),mediana_ponderada_cantidad,3492,0,42,42,12,38,38,38,38,FALSE,4,TRUE,TRUE
+federal_vs_estatal,2024_2027,TRUE,TRUE,FALSE,TRUE,Federal (agrupado),mediana_ponderada_cantidad,3445,0,40,40,12,36,36,36,36,FALSE,3,TRUE,TRUE
+federal_vs_estatal,2024_2027,TRUE,TRUE,TRUE,FALSE,Federal (agrupado),mediana_ponderada_cantidad,3311,0,42,42,12,37,36,37,36,FALSE,5,TRUE,TRUE
+federal_vs_estatal,2024_2027,TRUE,TRUE,TRUE,TRUE,Federal (agrupado),mediana_ponderada_cantidad,3282,0,40,40,12,35,34,35,34,FALSE,4,TRUE,TRUE
+federal_vs_estatal,2024_2025,FALSE,FALSE,FALSE,FALSE,Federal (agrupado),mediana_ponderada_cantidad,4988,0,42,42,11,37,37,37,37,FALSE,1,TRUE,TRUE
+federal_vs_estatal,2024_2025,FALSE,FALSE,FALSE,TRUE,Federal (agrupado),mediana_ponderada_cantidad,4508,0,40,40,11,35,35,35,35,TRUE,0,TRUE,TRUE
+federal_vs_estatal,2024_2025,FALSE,FALSE,TRUE,FALSE,Federal (agrupado),mediana_ponderada_cantidad,3276,0,42,42,11,36,35,36,35,FALSE,2,TRUE,TRUE
+federal_vs_estatal,2024_2025,FALSE,FALSE,TRUE,TRUE,Federal (agrupado),mediana_ponderada_cantidad,3247,0,40,40,11,34,33,34,33,FALSE,1,TRUE,TRUE
+federal_vs_estatal,2024_2025,FALSE,TRUE,FALSE,FALSE,Federal (agrupado),mediana_ponderada_cantidad,3318,0,42,42,11,37,37,37,37,FALSE,2,TRUE,TRUE
+federal_vs_estatal,2024_2025,FALSE,TRUE,FALSE,TRUE,Federal (agrupado),mediana_ponderada_cantidad,3273,0,40,40,11,35,35,35,35,FALSE,1,TRUE,TRUE
+federal_vs_estatal,2024_2025,FALSE,TRUE,TRUE,FALSE,Federal (agrupado),mediana_ponderada_cantidad,3185,0,42,42,11,36,35,36,35,FALSE,3,TRUE,TRUE
+federal_vs_estatal,2024_2025,FALSE,TRUE,TRUE,TRUE,Federal (agrupado),mediana_ponderada_cantidad,3158,0,40,40,11,34,33,34,33,FALSE,2,TRUE,TRUE
+federal_vs_estatal,2024_2025,TRUE,FALSE,FALSE,FALSE,Federal (agrupado),mediana_ponderada_cantidad,4988,0,42,42,11,37,37,37,37,FALSE,2,TRUE,TRUE
+federal_vs_estatal,2024_2025,TRUE,FALSE,FALSE,TRUE,Federal (agrupado),mediana_ponderada_cantidad,4508,0,40,40,11,35,35,35,35,FALSE,1,TRUE,TRUE
+federal_vs_estatal,2024_2025,TRUE,FALSE,TRUE,FALSE,Federal (agrupado),mediana_ponderada_cantidad,3276,0,42,42,11,36,35,36,35,FALSE,3,TRUE,TRUE
+federal_vs_estatal,2024_2025,TRUE,FALSE,TRUE,TRUE,Federal (agrupado),mediana_ponderada_cantidad,3247,0,40,40,11,34,33,34,33,FALSE,2,TRUE,TRUE
+federal_vs_estatal,2024_2025,TRUE,TRUE,FALSE,FALSE,Federal (agrupado),mediana_ponderada_cantidad,3318,0,42,42,11,37,37,37,37,FALSE,3,TRUE,TRUE
+federal_vs_estatal,2024_2025,TRUE,TRUE,FALSE,TRUE,Federal (agrupado),mediana_ponderada_cantidad,3273,0,40,40,11,35,35,35,35,FALSE,2,TRUE,TRUE
+federal_vs_estatal,2024_2025,TRUE,TRUE,TRUE,FALSE,Federal (agrupado),mediana_ponderada_cantidad,3185,0,42,42,11,36,35,36,35,FALSE,4,TRUE,TRUE
+federal_vs_estatal,2024_2025,TRUE,TRUE,TRUE,TRUE,Federal (agrupado),mediana_ponderada_cantidad,3158,0,40,40,11,34,33,34,33,FALSE,3,TRUE,TRUE
+federal_vs_estatal,solo_2025,FALSE,FALSE,FALSE,FALSE,Federal (agrupado),mediana_ponderada_cantidad,3518,0,41,41,9,35,35,35,35,FALSE,2,TRUE,TRUE
+federal_vs_estatal,solo_2025,FALSE,FALSE,FALSE,TRUE,Federal (agrupado),mediana_ponderada_cantidad,3496,0,39,39,9,33,33,33,33,FALSE,1,TRUE,TRUE
+federal_vs_estatal,solo_2025,FALSE,FALSE,TRUE,FALSE,Federal (agrupado),mediana_ponderada_cantidad,2766,0,41,41,9,33,33,33,33,FALSE,3,TRUE,TRUE
+federal_vs_estatal,solo_2025,FALSE,FALSE,TRUE,TRUE,Federal (agrupado),mediana_ponderada_cantidad,2746,0,39,39,9,32,32,32,32,FALSE,2,TRUE,TRUE
+federal_vs_estatal,solo_2025,FALSE,TRUE,FALSE,FALSE,Federal (agrupado),mediana_ponderada_cantidad,2775,0,41,41,9,35,35,35,35,FALSE,3,TRUE,TRUE
+federal_vs_estatal,solo_2025,FALSE,TRUE,FALSE,TRUE,Federal (agrupado),mediana_ponderada_cantidad,2756,0,39,39,9,33,33,33,33,FALSE,2,TRUE,TRUE
+federal_vs_estatal,solo_2025,FALSE,TRUE,TRUE,FALSE,Federal (agrupado),mediana_ponderada_cantidad,2713,0,41,41,9,33,33,33,33,FALSE,4,TRUE,TRUE
+federal_vs_estatal,solo_2025,FALSE,TRUE,TRUE,TRUE,Federal (agrupado),mediana_ponderada_cantidad,2695,0,39,39,9,32,32,32,32,FALSE,3,TRUE,TRUE
+federal_vs_estatal,solo_2025,TRUE,FALSE,FALSE,FALSE,Federal (agrupado),mediana_ponderada_cantidad,3518,0,41,41,9,35,35,35,35,FALSE,3,TRUE,TRUE
+federal_vs_estatal,solo_2025,TRUE,FALSE,FALSE,TRUE,Federal (agrupado),mediana_ponderada_cantidad,3496,0,39,39,9,33,33,33,33,FALSE,2,TRUE,TRUE
+federal_vs_estatal,solo_2025,TRUE,FALSE,TRUE,FALSE,Federal (agrupado),mediana_ponderada_cantidad,2766,0,41,41,9,33,33,33,33,FALSE,4,TRUE,TRUE
+federal_vs_estatal,solo_2025,TRUE,FALSE,TRUE,TRUE,Federal (agrupado),mediana_ponderada_cantidad,2746,0,39,39,9,32,32,32,32,FALSE,3,TRUE,TRUE
+federal_vs_estatal,solo_2025,TRUE,TRUE,FALSE,FALSE,Federal (agrupado),mediana_ponderada_cantidad,2775,0,41,41,9,35,35,35,35,FALSE,4,TRUE,TRUE
+federal_vs_estatal,solo_2025,TRUE,TRUE,FALSE,TRUE,Federal (agrupado),mediana_ponderada_cantidad,2756,0,39,39,9,33,33,33,33,FALSE,3,TRUE,TRUE
+federal_vs_estatal,solo_2025,TRUE,TRUE,TRUE,FALSE,Federal (agrupado),mediana_ponderada_cantidad,2713,0,41,41,9,33,33,33,33,FALSE,5,TRUE,TRUE
+federal_vs_estatal,solo_2025,TRUE,TRUE,TRUE,TRUE,Federal (agrupado),mediana_ponderada_cantidad,2695,0,39,39,9,32,32,32,32,FALSE,4,TRUE,TRUE

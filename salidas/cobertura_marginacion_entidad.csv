@@ -1,0 +1,33 @@
+cve_ent,entidad,grado_marginacion_2020,filas_total,filas_comparables,pares,cobertura
+04,Campeche,Alto,38,38,11,Con pares
+21,Puebla,Alto,12,9,8,Con pares
+08,Chihuahua,Medio,208,180,36,Con pares
+29,Tlaxcala,Medio,49,48,3,Con pares
+06,Colima,Bajo,194,147,27,Con pares
+14,Jalisco,Bajo,109,96,48,Con pares
+15,México,Bajo,171,126,24,Con pares
+01,Aguascalientes,Muy bajo,2339,9,8,Con pares
+09,Ciudad de México,Muy bajo,52,51,10,Con pares
+05,Coahuila de Zaragoza,Muy bajo,403,250,29,Con pares
+20,Oaxaca,Muy alto,4,4,0,"Con filas comparables, sin par"
+11,Guanajuato,Medio,2278,0,0,"Con filas, ninguna comparable"
+03,Baja California Sur,Bajo,215,0,0,"Con filas, ninguna comparable"
+26,Sonora,Bajo,122,0,0,"Con filas, ninguna comparable"
+07,Chiapas,Muy alto,0,0,0,Sin filas
+12,Guerrero,Muy alto,0,0,0,Sin filas
+10,Durango,Alto,0,0,0,Sin filas
+13,Hidalgo,Alto,0,0,0,Sin filas
+16,Michoacán de Ocampo,Alto,0,0,0,Sin filas
+18,Nayarit,Alto,0,0,0,Sin filas
+27,Tabasco,Alto,0,0,0,Sin filas
+30,Veracruz de Ignacio de la Llave,Alto,0,0,0,Sin filas
+31,Yucatán,Alto,0,0,0,Sin filas
+17,Morelos,Medio,0,0,0,Sin filas
+23,Quintana Roo,Medio,0,0,0,Sin filas
+24,San Luis Potosí,Medio,0,0,0,Sin filas
+25,Sinaloa,Medio,0,0,0,Sin filas
+32,Zacatecas,Medio,0,0,0,Sin filas
+02,Baja California,Bajo,0,0,0,Sin filas
+22,Querétaro de Arteaga,Bajo,0,0,0,Sin filas
+28,Tamaulipas,Bajo,0,0,0,Sin filas
+19,Nuevo León,Muy bajo,0,0,0,Sin filas
